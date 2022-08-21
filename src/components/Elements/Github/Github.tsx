@@ -1,0 +1,15 @@
+import { AiFillGithub } from 'react-icons/ai'
+
+export const Github = () => {
+  return (
+    <div>
+      <a
+        href='https://github.com/joangavelan/one-plate'
+        target='_blank'
+        rel='nopeener noreferrer'
+      >
+        <AiFillGithub className='text-2xl text-green-900 md:text-[2.4rem]' />
+      </a>
+    </div>
+  )
+}
