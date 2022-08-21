@@ -1,4 +1,4 @@
-import Header from '@/components/Layout/Header'
+import { Content, Footer, Header, Main } from '@/components/Layout'
 import type { NextPage } from 'next'
 import Head from 'next/head'
 
@@ -13,9 +13,11 @@ const Home: NextPage = () => {
       </Head>
 
       {/* content */}
-      <div className='mx-auto max-w-[90rem] py-10 px-4'>
+      <Content>
         <Header />
-      </div>
+        <Main />
+        <Footer />
+      </Content>
     </>
   )
 }
