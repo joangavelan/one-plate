@@ -8,7 +8,7 @@ export const Github = () => {
         target='_blank'
         rel='nopeener noreferrer'
       >
-        <AiFillGithub className='text-2xl text-green-900 md:text-[2.4rem]' />
+        <AiFillGithub className='text-2xl text-slate-900 md:text-[2.4rem]' />
       </a>
     </div>
   )
