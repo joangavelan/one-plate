@@ -5,3 +5,11 @@
 .green-box {
   @apply rounded bg-[#F5F7F4] py-3 px-4 md:py-5 md:px-6;
 }
+
+.inputStyles {
+  @apply w-full rounded-lg px-2.5 py-1.5 text-sm outline-none ring-1 ring-gray-300 md:px-4 md:py-2 md:text-base;
+}
+
+.option {
+  @apply px-2.5 py-1.5 text-sm md:px-4 md:py-2 md:text-base;
+}
