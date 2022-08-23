@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .green-box {
-  @apply rounded bg-[#F5F7F4] py-3 px-4 md:py-5 md:px-6;
+  @apply rounded-lg bg-[#F5F7F4] py-3 px-4 md:py-5 md:px-6;
 }
 
 .inputStyles {
