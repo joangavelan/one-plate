@@ -12,5 +12,8 @@ function defineNextConfig(config) {
 
 export default defineNextConfig({
   reactStrictMode: true,
-  swcMinify: true
+  swcMinify: true,
+  images: {
+    domains: ['spoonacular.com']
+  }
 })

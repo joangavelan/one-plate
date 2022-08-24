@@ -13,3 +13,11 @@
 .option {
   @apply px-2.5 py-1.5 text-sm md:px-4 md:py-2 md:text-base;
 }
+
+.absoluteCenter {
+  @apply absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 transform;
+}
+
+.badge {
+  @apply flex w-min gap-1 py-1 px-2.5 text-xs font-medium md:text-sm lg:text-base;
+}
