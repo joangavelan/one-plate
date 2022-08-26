@@ -1,6 +1,6 @@
 export const Legend = ({ data }: { data: any }) => {
   return (
-    <div className='mx-auto mt-1.5 flex gap-2 md:gap-5'>
+    <div className='mx-auto mt-1.5 flex gap-3 sm:gap-5'>
       {data.labels.map((label: string, index: number) => (
         <div className='flex items-center gap-1.5' key={label}>
           <div

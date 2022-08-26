@@ -5,7 +5,7 @@ import React from 'react'
 
 export const Main = () => {
   return (
-    <main className='my-5 grid auto-rows-fr grid-cols-5 gap-4 md:gap-8'>
+    <main className='grid grid-cols-5 gap-4 md:gap-8 lg:auto-rows-fr'>
       <Ingredients />
       <Chart />
       <Recipes />

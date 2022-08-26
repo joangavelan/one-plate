@@ -5,7 +5,7 @@ import { IngredientList } from '../List'
 
 export const Ingredients = () => {
   return (
-    <div className='green-box col-span-5 flex flex-col md:col-span-3 md:row-span-2'>
+    <div className='green-box col-span-5 flex flex-col lg:col-span-3 lg:row-span-2'>
       <Heading />
       <IngredientForm />
       <hr className='border border-gray-200' />

@@ -12,7 +12,7 @@ export const Quantity = () => {
   )
 
   return (
-    <div className='w-[3rem] min-w-[3rem] md:w-[4-rem] md:min-w-[4rem]'>
+    <div className='w-[3rem] min-w-[3rem] sm:w-[4-rem] sm:min-w-[4rem]'>
       <input
         type='string'
         className='inputStyles'

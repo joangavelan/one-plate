@@ -29,7 +29,7 @@ const data: ChartData<'doughnut'> = {
 
 export const Chart = () => {
   return (
-    <div className='green-box col-span-5 grid grid-rows-[auto,minmax(0,_1fr),auto] gap-5 md:col-span-2'>
+    <div className='green-box col-span-5 grid grid-rows-[auto,minmax(0,_1fr),auto] gap-5 lg:col-span-2'>
       <Heading />
       <Graph data={data} />
       <Legend data={data} />

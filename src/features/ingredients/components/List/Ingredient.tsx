@@ -13,29 +13,35 @@ const Ingredient = ({ ingredient }: IngredientProps) => {
   return (
     <div className='flex overflow-hidden rounded-lg bg-white shadow-sm'>
       {/* drag handler */}
-      <div className='grid w-[2.5rem] cursor-pointer place-items-center md:w-[3.3rem] lg:w-[4.5rem]'>
-        <TbGripVertical className='text-xl text-gray-700 md:text-2xl lg:text-3xl' />
+      <div className='grid w-[2.5rem] cursor-pointer place-items-center sm:w-[3.3rem] lg:w-[4.5rem]'>
+        <TbGripVertical className='text-xl text-gray-700 sm:text-2xl lg:text-3xl' />
       </div>
 
       {/* content */}
       <div className='flex flex-1 text-gray-700'>
         {/* image */}
-        <div className='relative h-[2rem] w-[2rem] self-center md:h-[3rem] md:w-[3rem] lg:h-[4rem] lg:w-[4rem]'>
+        <div className='relative h-[2rem] w-[2rem] self-center sm:h-[3rem] sm:w-[3rem] lg:h-[4rem] lg:w-[4rem]'>
           <Image src={image} layout='fill' alt={name} />
         </div>
 
-        {/* name & nutrients  */}
-        <div className='ml-3.5 py-3 md:ml-4 md:py-5 lg:ml-6'>
-          <h3 className='mb-0.5 text-xs font-semibold capitalize md:text-base lg:text-lg'>
-            {name}{' '}
-            <span className='inline-block normal-case '>
+        {/* name, amount & nutrients  */}
+        <div className='ml-3.5 py-3 sm:ml-4 sm:py-5 lg:ml-6'>
+          <h3 className='mb-1 text-sm font-semibold capitalize sm:text-base lg:text-lg'>
+            {/* name */}
+            <span className='mr-1'>{name}</span>
+            {/* amount */}
+            <span className='inline-block normal-case'>
               ({amount} {unit})
             </span>
           </h3>
-          <div className='flex flex-col justify-between text-xs md:text-sm lg:text-base'>
+          {/* nutrients */}
+          <div className='flex flex-col justify-between'>
             {nutrients.map(({ name, amount, unit }) => (
-              <div key={name} className='leading-[1.125rem] sm:leading-normal'>
-                <h4 className='mr-2 inline-block'>{name}:</h4>
+              <div
+                key={name}
+                className='text-xs leading-[1.125rem] sm:text-sm sm:leading-normal lg:text-base'
+              >
+                <h4 className='mr-1 inline-block'>{name}:</h4>
                 <span className='font-medium'>
                   {amount} {unit}
                 </span>
@@ -50,7 +56,7 @@ const Ingredient = ({ ingredient }: IngredientProps) => {
             <span>{Math.round(calories.amount)}</span>
             <span>{calories.unit}</span>
           </div>
-          <div className='cursor-pointer py-2.5 px-3.5 text-base transition-colors duration-300 hover:text-red-700 md:text-lg lg:text-xl'>
+          <div className='cursor-pointer py-2.5 px-3.5 text-base transition-colors duration-300 hover:text-red-700 sm:text-lg lg:text-xl'>
             <FiTrash2 />
           </div>
         </div>

@@ -43,7 +43,7 @@ export const IngredientSearch = () => {
           afterLeave={() => setQuery('')}
         >
           {/* options */}
-          <Combobox.Options className='absolute z-10 mt-2 max-h-40 w-full min-w-min overflow-auto rounded-md bg-white py-1 ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-sm md:max-h-60'>
+          <Combobox.Options className='absolute z-10 mt-2 max-h-40 w-full min-w-min overflow-auto rounded-md bg-white py-1 ring-1 ring-black ring-opacity-5 focus:outline-none sm:max-h-52 sm:text-sm lg:max-h-60'>
             {filteredIngredients.length === 0 && query !== '' ? (
               // nothing found
               <div className='option text-gray-700'>Nothing found.</div>
