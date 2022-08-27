@@ -1,0 +1,2899 @@
+[
+  {
+    "vegetarian": false,
+    "vegan": false,
+    "glutenFree": true,
+    "dairyFree": false,
+    "veryHealthy": true,
+    "cheap": false,
+    "veryPopular": false,
+    "sustainable": false,
+    "lowFodmap": false,
+    "weightWatcherSmartPoints": 19,
+    "gaps": "no",
+    "preparationMinutes": -1,
+    "cookingMinutes": -1,
+    "aggregateLikes": 1,
+    "healthScore": 53,
+    "creditsText": "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    "license": "CC BY 3.0",
+    "sourceName": "Foodista",
+    "pricePerServing": 375.16,
+    "extendedIngredients": [
+      {
+        "id": 11124,
+        "aisle": "Produce",
+        "image": "sliced-carrot.png",
+        "consistency": "SOLID",
+        "name": "carrot",
+        "nameClean": "carrot",
+        "original": "1 carrot, diced",
+        "originalName": "carrot, diced",
+        "amount": 1.0,
+        "unit": "",
+        "meta": ["diced"],
+        "measures": {
+          "us": {
+            "amount": 1.0,
+            "unitShort": "",
+            "unitLong": ""
+          },
+          "metric": {
+            "amount": 1.0,
+            "unitShort": "",
+            "unitLong": ""
+          }
+        }
+      },
+      {
+        "id": 5006,
+        "aisle": "Meat",
+        "image": "whole-chicken.jpg",
+        "consistency": "SOLID",
+        "name": "chicken",
+        "nameClean": "whole chicken",
+        "original": "2 chicken fillets",
+        "originalName": "chicken fillets",
+        "amount": 2.0,
+        "unit": "fillet",
+        "meta": [],
+        "measures": {
+          "us": {
+            "amount": 2.0,
+            "unitShort": "fillet",
+            "unitLong": "fillets"
+          },
+          "metric": {
+            "amount": 2.0,
+            "unitShort": "fillet",
+            "unitLong": "fillets"
+          }
+        }
+      },
+      {
+        "id": 6172,
+        "aisle": "Canned and Jarred",
+        "image": "chicken-broth.png",
+        "consistency": "LIQUID",
+        "name": "chicken stock",
+        "nameClean": "chicken stock",
+        "original": "2 1/2 cups chicken stock (or broth for Vichyssoise)",
+        "originalName": "chicken stock (or broth for Vichyssoise)",
+        "amount": 2.5,
+        "unit": "cups",
+        "meta": ["for vichyssoise)"],
+        "measures": {
+          "us": {
+            "amount": 2.5,
+            "unitShort": "cups",
+            "unitLong": "cups"
+          },
+          "metric": {
+            "amount": 591.47,
+            "unitShort": "ml",
+            "unitLong": "milliliters"
+          }
+        }
+      },
+      {
+        "id": 11172,
+        "aisle": "Produce",
+        "image": "corn.png",
+        "consistency": "SOLID",
+        "name": "corn kernels",
+        "nameClean": "corn kernels",
+        "original": "1 cup corn kernels",
+        "originalName": "corn kernels",
+        "amount": 1.0,
+        "unit": "cup",
+        "meta": [],
+        "measures": {
+          "us": {
+            "amount": 1.0,
+            "unitShort": "cup",
+            "unitLong": "cup"
+          },
+          "metric": {
+            "amount": 236.588,
+            "unitShort": "ml",
+            "unitLong": "milliliters"
+          }
+        }
+      },
+      {
+        "id": 11246,
+        "aisle": "Produce",
+        "image": "leeks.jpg",
+        "consistency": "SOLID",
+        "name": "leeks",
+        "nameClean": "leek",
+        "original": "2 mediums leeks (white parts only), halved lengthwise, washed well, and sliced thin crosswise",
+        "originalName": "s leeks (white parts only), halved lengthwise, washed well, and sliced thin crosswise",
+        "amount": 2.0,
+        "unit": "medium",
+        "meta": [
+          "white",
+          "washed",
+          "halved lengthwise",
+          "sliced",
+          "well",
+          "thin",
+          "( parts only)"
+        ],
+        "measures": {
+          "us": {
+            "amount": 2.0,
+            "unitShort": "medium",
+            "unitLong": "mediums"
+          },
+          "metric": {
+            "amount": 2.0,
+            "unitShort": "medium",
+            "unitLong": "mediums"
+          }
+        }
+      },
+      {
+        "id": 11297,
+        "aisle": "Produce;Spices and Seasonings",
+        "image": "parsley.jpg",
+        "consistency": "SOLID",
+        "name": "parsley",
+        "nameClean": "parsley",
+        "original": "2 sprig parsley",
+        "originalName": "parsley",
+        "amount": 2.0,
+        "unit": "sprig",
+        "meta": [],
+        "measures": {
+          "us": {
+            "amount": 2.0,
+            "unitShort": "sprig",
+            "unitLong": "sprigs"
+          },
+          "metric": {
+            "amount": 2.0,
+            "unitShort": "sprig",
+            "unitLong": "sprigs"
+          }
+        }
+      },
+      {
+        "id": 11352,
+        "aisle": "Produce",
+        "image": "potatoes-yukon-gold.png",
+        "consistency": "SOLID",
+        "name": "potato",
+        "nameClean": "potato",
+        "original": "1 medium boiling potato (about ½ pound)",
+        "originalName": "medium boiling potato (about",
+        "amount": 0.5,
+        "unit": "pound",
+        "meta": ["boiling"],
+        "measures": {
+          "us": {
+            "amount": 0.5,
+            "unitShort": "lb",
+            "unitLong": "pounds"
+          },
+          "metric": {
+            "amount": 226.796,
+            "unitShort": "g",
+            "unitLong": "grams"
+          }
+        }
+      },
+      {
+        "id": 1102047,
+        "aisle": "Spices and Seasonings",
+        "image": "salt-and-pepper.jpg",
+        "consistency": "SOLID",
+        "name": "salt and pepper",
+        "nameClean": "salt and pepper",
+        "original": "salt and freshly ground black pepper",
+        "originalName": "salt and freshly ground black pepper",
+        "amount": 1.0,
+        "unit": "serving",
+        "meta": ["black", "freshly ground"],
+        "measures": {
+          "us": {
+            "amount": 1.0,
+            "unitShort": "serving",
+            "unitLong": "serving"
+          },
+          "metric": {
+            "amount": 1.0,
+            "unitShort": "serving",
+            "unitLong": "serving"
+          }
+        }
+      },
+      {
+        "id": 16124,
+        "aisle": "Ethnic Foods;Condiments",
+        "image": "soy-sauce.jpg",
+        "consistency": "LIQUID",
+        "name": "soy sauce",
+        "nameClean": "soy sauce",
+        "original": "1 tablespoon soy sauce",
+        "originalName": "soy sauce",
+        "amount": 1.0,
+        "unit": "tablespoon",
+        "meta": [],
+        "measures": {
+          "us": {
+            "amount": 1.0,
+            "unitShort": "Tbsp",
+            "unitLong": "Tbsp"
+          },
+          "metric": {
+            "amount": 1.0,
+            "unitShort": "Tbsp",
+            "unitLong": "Tbsp"
+          }
+        }
+      },
+      {
+        "id": 1145,
+        "aisle": "Milk, Eggs, Other Dairy",
+        "image": "butter-sliced.jpg",
+        "consistency": "SOLID",
+        "name": "unsalted butter",
+        "nameClean": "unsalted butter",
+        "original": "1 tablespoon unsalted butter",
+        "originalName": "unsalted butter",
+        "amount": 1.0,
+        "unit": "tablespoon",
+        "meta": ["unsalted"],
+        "measures": {
+          "us": {
+            "amount": 1.0,
+            "unitShort": "Tbsp",
+            "unitLong": "Tbsp"
+          },
+          "metric": {
+            "amount": 1.0,
+            "unitShort": "Tbsp",
+            "unitLong": "Tbsp"
+          }
+        }
+      }
+    ],
+    "id": 649430,
+    "title": "Leek and Chicken Soup",
+    "readyInMinutes": 45,
+    "servings": 1,
+    "sourceUrl": "http://www.foodista.com/recipe/B7C6WN45/leek-and-chicken-soup",
+    "image": "https://spoonacular.com/recipeImages/649430-556x370.jpg",
+    "imageType": "jpg",
+    "summary": "Leek and Chicken Soup might be just the main course you are searching for. For <b>$3.75 per serving</b>, this recipe <b>covers 48%</b> of your daily requirements of vitamins and minerals. One serving contains <b>727 calories</b>, <b>31g of protein</b>, and <b>22g of fat</b>. Only a few people made this recipe, and 1 would say it hit the spot. If you have parsley, chicken, potato, and a few other ingredients on hand, you can make it. To use up the soy sauce you could follow this main course with the <a href=\"https://spoonacular.com/recipes/panna-cotta-with-strawberry-vin-santo-sauce-154216\">Panna Cotta with Strawberry-Vin Santo Sauce</a> as a dessert. From preparation to the plate, this recipe takes approximately <b>45 minutes</b>. It will be a hit at your <b>Autumn</b> event. All things considered, we decided this recipe <b>deserves a spoonacular score of 84%</b>. This score is super. Try <a href=\"https://spoonacular.com/recipes/chicken-leek-soup-519743\">Chicken Leek Soup</a>, <a href=\"https://spoonacular.com/recipes/chicken-leek-and-potato-soup-520728\">Chicken, leek and potato soup</a>, and <a href=\"https://spoonacular.com/recipes/chicken-corn-leek-soup-39528\">Chicken, Corn & Leek Soup</a> for similar recipes.",
+    "cuisines": [],
+    "dishTypes": ["lunch", "main course", "main dish", "dinner"],
+    "diets": ["gluten free"],
+    "occasions": ["fall", "winter"],
+    "winePairing": {},
+    "instructions": "<ol><li>Cut chicken into very small pieces and toss in a bowl with soy sauce.</li><li>Heat butter in a non stick fry pan and stir fry leeks for 2 minutes. Add carrot and stir fry for 1 minute. Add potato and chicken stock and season with salt and pepper. Bring to the boil and cook on medium heat for 15 minutes.</li><li>Blend half the soup to a puree and return the pureed soup to the pan. Add corn kernels and simmer for 5 minutes. Add chicken pieces to hot soup and leave on gentle heat for 5 minutes without boiling it. Stir in parsley and serve.</li></ol>",
+    "analyzedInstructions": [
+      {
+        "name": "",
+        "steps": [
+          {
+            "number": 1,
+            "step": "Cut chicken into very small pieces and toss in a bowl with soy sauce.",
+            "ingredients": [
+              {
+                "id": 16124,
+                "name": "soy sauce",
+                "localizedName": "soy sauce",
+                "image": "soy-sauce.jpg"
+              },
+              {
+                "id": 5006,
+                "name": "whole chicken",
+                "localizedName": "whole chicken",
+                "image": "whole-chicken.jpg"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404783,
+                "name": "bowl",
+                "localizedName": "bowl",
+                "image": "bowl.jpg"
+              }
+            ]
+          },
+          {
+            "number": 2,
+            "step": "Heat butter in a non stick fry pan and stir fry leeks for 2 minutes.",
+            "ingredients": [
+              {
+                "id": 1001,
+                "name": "butter",
+                "localizedName": "butter",
+                "image": "butter-sliced.jpg"
+              },
+              {
+                "id": 11246,
+                "name": "leek",
+                "localizedName": "leek",
+                "image": "leeks.jpg"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404645,
+                "name": "frying pan",
+                "localizedName": "frying pan",
+                "image": "pan.png"
+              }
+            ],
+            "length": {
+              "number": 2,
+              "unit": "minutes"
+            }
+          },
+          {
+            "number": 3,
+            "step": "Add carrot and stir fry for 1 minute.",
+            "ingredients": [
+              {
+                "id": 11124,
+                "name": "carrot",
+                "localizedName": "carrot",
+                "image": "sliced-carrot.png"
+              }
+            ],
+            "equipment": [],
+            "length": {
+              "number": 1,
+              "unit": "minutes"
+            }
+          },
+          {
+            "number": 4,
+            "step": "Add potato and chicken stock and season with salt and pepper. Bring to the boil and cook on medium heat for 15 minutes.Blend half the soup to a puree and return the pureed soup to the pan.",
+            "ingredients": [
+              {
+                "id": 1102047,
+                "name": "salt and pepper",
+                "localizedName": "salt and pepper",
+                "image": "salt-and-pepper.jpg"
+              },
+              {
+                "id": 6172,
+                "name": "chicken stock",
+                "localizedName": "chicken stock",
+                "image": "chicken-broth.png"
+              },
+              {
+                "id": 11352,
+                "name": "potato",
+                "localizedName": "potato",
+                "image": "potatoes-yukon-gold.png"
+              },
+              {
+                "id": 0,
+                "name": "soup",
+                "localizedName": "soup",
+                "image": ""
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404645,
+                "name": "frying pan",
+                "localizedName": "frying pan",
+                "image": "pan.png"
+              }
+            ],
+            "length": {
+              "number": 15,
+              "unit": "minutes"
+            }
+          },
+          {
+            "number": 5,
+            "step": "Add corn kernels and simmer for 5 minutes.",
+            "ingredients": [
+              {
+                "id": 11172,
+                "name": "corn kernels",
+                "localizedName": "corn kernels",
+                "image": "corn.png"
+              }
+            ],
+            "equipment": [],
+            "length": {
+              "number": 5,
+              "unit": "minutes"
+            }
+          },
+          {
+            "number": 6,
+            "step": "Add chicken pieces to hot soup and leave on gentle heat for 5 minutes without boiling it. Stir in parsley and serve.",
+            "ingredients": [
+              {
+                "id": 1005006,
+                "name": "chicken pieces",
+                "localizedName": "chicken pieces",
+                "image": "chicken-parts.jpg"
+              },
+              {
+                "id": 11297,
+                "name": "parsley",
+                "localizedName": "parsley",
+                "image": "parsley.jpg"
+              },
+              {
+                "id": 0,
+                "name": "soup",
+                "localizedName": "soup",
+                "image": ""
+              }
+            ],
+            "equipment": [],
+            "length": {
+              "number": 5,
+              "unit": "minutes"
+            }
+          }
+        ]
+      }
+    ],
+    "originalId": null,
+    "spoonacularSourceUrl": "https://spoonacular.com/leek-and-chicken-soup-649430"
+  },
+  {
+    "vegetarian": false,
+    "vegan": false,
+    "glutenFree": false,
+    "dairyFree": true,
+    "veryHealthy": true,
+    "cheap": false,
+    "veryPopular": false,
+    "sustainable": false,
+    "lowFodmap": false,
+    "weightWatcherSmartPoints": 21,
+    "gaps": "no",
+    "preparationMinutes": -1,
+    "cookingMinutes": -1,
+    "aggregateLikes": 1,
+    "healthScore": 66,
+    "creditsText": "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    "license": "CC BY 3.0",
+    "sourceName": "Foodista",
+    "pricePerServing": 425.06,
+    "extendedIngredients": [
+      {
+        "id": 1002030,
+        "aisle": "Spices and Seasonings",
+        "image": "pepper.jpg",
+        "consistency": "SOLID",
+        "name": "pepper",
+        "nameClean": "black pepper",
+        "original": "1 large pepper, quartered",
+        "originalName": "pepper, quartered",
+        "amount": 1.0,
+        "unit": "large",
+        "meta": ["quartered"],
+        "measures": {
+          "us": {
+            "amount": 1.0,
+            "unitShort": "large",
+            "unitLong": "large"
+          },
+          "metric": {
+            "amount": 1.0,
+            "unitShort": "large",
+            "unitLong": "large"
+          }
+        }
+      },
+      {
+        "id": 11124,
+        "aisle": "Produce",
+        "image": "sliced-carrot.png",
+        "consistency": "SOLID",
+        "name": "carrots",
+        "nameClean": "carrot",
+        "original": "6 whole carrots",
+        "originalName": "whole carrots",
+        "amount": 6.0,
+        "unit": "",
+        "meta": ["whole"],
+        "measures": {
+          "us": {
+            "amount": 6.0,
+            "unitShort": "",
+            "unitLong": ""
+          },
+          "metric": {
+            "amount": 6.0,
+            "unitShort": "",
+            "unitLong": ""
+          }
+        }
+      },
+      {
+        "id": 20081,
+        "aisle": "Baking",
+        "image": "flour.png",
+        "consistency": "SOLID",
+        "name": "flour",
+        "nameClean": "wheat flour",
+        "original": "2 tablespoons flour",
+        "originalName": "flour",
+        "amount": 2.0,
+        "unit": "tablespoons",
+        "meta": [],
+        "measures": {
+          "us": {
+            "amount": 2.0,
+            "unitShort": "Tbsps",
+            "unitLong": "Tbsps"
+          },
+          "metric": {
+            "amount": 2.0,
+            "unitShort": "Tbsps",
+            "unitLong": "Tbsps"
+          }
+        }
+      },
+      {
+        "id": 11215,
+        "aisle": "Produce",
+        "image": "garlic.png",
+        "consistency": "SOLID",
+        "name": "garlic",
+        "nameClean": "garlic",
+        "original": "5 – Cloves of garlic",
+        "originalName": "– Cloves of garlic",
+        "amount": 5.0,
+        "unit": "Cloves",
+        "meta": [],
+        "measures": {
+          "us": {
+            "amount": 5.0,
+            "unitShort": "Cloves",
+            "unitLong": "Cloves"
+          },
+          "metric": {
+            "amount": 5.0,
+            "unitShort": "Cloves",
+            "unitLong": "Cloves"
+          }
+        }
+      },
+      {
+        "id": 6168,
+        "aisle": "Condiments",
+        "image": "hot-sauce-or-tabasco.png",
+        "consistency": "LIQUID",
+        "name": "hot sauce",
+        "nameClean": "hot sauce",
+        "original": "7 drops hot sauce",
+        "originalName": "hot sauce",
+        "amount": 7.0,
+        "unit": "drops",
+        "meta": [],
+        "measures": {
+          "us": {
+            "amount": 7.0,
+            "unitShort": "drops",
+            "unitLong": "drops"
+          },
+          "metric": {
+            "amount": 7.0,
+            "unitShort": "drops",
+            "unitLong": "drops"
+          }
+        }
+      },
+      {
+        "id": 11282,
+        "aisle": "Produce",
+        "image": "brown-onion.png",
+        "consistency": "SOLID",
+        "name": "onions",
+        "nameClean": "onion",
+        "original": "6 onions, whole",
+        "originalName": "onions, whole",
+        "amount": 6.0,
+        "unit": "",
+        "meta": ["whole"],
+        "measures": {
+          "us": {
+            "amount": 6.0,
+            "unitShort": "",
+            "unitLong": ""
+          },
+          "metric": {
+            "amount": 6.0,
+            "unitShort": "",
+            "unitLong": ""
+          }
+        }
+      },
+      {
+        "id": 11297,
+        "aisle": "Produce;Spices and Seasonings",
+        "image": "parsley.jpg",
+        "consistency": "SOLID",
+        "name": "parsley",
+        "nameClean": "parsley",
+        "original": "1 tablespoon dry parsley",
+        "originalName": "dry parsley",
+        "amount": 1.0,
+        "unit": "tablespoon",
+        "meta": ["dry"],
+        "measures": {
+          "us": {
+            "amount": 1.0,
+            "unitShort": "Tbsp",
+            "unitLong": "Tbsp"
+          },
+          "metric": {
+            "amount": 1.0,
+            "unitShort": "Tbsp",
+            "unitLong": "Tbsp"
+          }
+        }
+      },
+      {
+        "id": 11352,
+        "aisle": "Produce",
+        "image": "potatoes-yukon-gold.png",
+        "consistency": "SOLID",
+        "name": "potatoes",
+        "nameClean": "potato",
+        "original": "6 large potatoes",
+        "originalName": "potatoes",
+        "amount": 6.0,
+        "unit": "large",
+        "meta": [],
+        "measures": {
+          "us": {
+            "amount": 6.0,
+            "unitShort": "large",
+            "unitLong": "larges"
+          },
+          "metric": {
+            "amount": 6.0,
+            "unitShort": "large",
+            "unitLong": "larges"
+          }
+        }
+      },
+      {
+        "id": 11821,
+        "aisle": "Produce",
+        "image": "red-pepper.jpg",
+        "consistency": "SOLID",
+        "name": "red bell pepper",
+        "nameClean": "red pepper",
+        "original": "Red pepper",
+        "originalName": "Red pepper",
+        "amount": 4.0,
+        "unit": "servings",
+        "meta": ["red"],
+        "measures": {
+          "us": {
+            "amount": 4.0,
+            "unitShort": "servings",
+            "unitLong": "servings"
+          },
+          "metric": {
+            "amount": 4.0,
+            "unitShort": "servings",
+            "unitLong": "servings"
+          }
+        }
+      },
+      {
+        "id": 2047,
+        "aisle": "Spices and Seasonings",
+        "image": "salt.jpg",
+        "consistency": "SOLID",
+        "name": "salt",
+        "nameClean": "table salt",
+        "original": "Salt, Pepper to taste",
+        "originalName": "Salt, Pepper to taste",
+        "amount": 4.0,
+        "unit": "servings",
+        "meta": ["to taste"],
+        "measures": {
+          "us": {
+            "amount": 4.0,
+            "unitShort": "servings",
+            "unitLong": "servings"
+          },
+          "metric": {
+            "amount": 4.0,
+            "unitShort": "servings",
+            "unitLong": "servings"
+          }
+        }
+      },
+      {
+        "id": 16124,
+        "aisle": "Ethnic Foods;Condiments",
+        "image": "soy-sauce.jpg",
+        "consistency": "LIQUID",
+        "name": "soy sauce",
+        "nameClean": "soy sauce",
+        "original": "Perrin sauce or soy sauce",
+        "originalName": "Perrin sauce or soy sauce",
+        "amount": 4.0,
+        "unit": "servings",
+        "meta": [],
+        "measures": {
+          "us": {
+            "amount": 4.0,
+            "unitShort": "servings",
+            "unitLong": "servings"
+          },
+          "metric": {
+            "amount": 4.0,
+            "unitShort": "servings",
+            "unitLong": "servings"
+          }
+        }
+      },
+      {
+        "id": 14412,
+        "aisle": "Beverages",
+        "image": "water.png",
+        "consistency": "LIQUID",
+        "name": "water",
+        "nameClean": "water",
+        "original": "1 cup water",
+        "originalName": "water",
+        "amount": 1.0,
+        "unit": "cup",
+        "meta": [],
+        "measures": {
+          "us": {
+            "amount": 1.0,
+            "unitShort": "cup",
+            "unitLong": "cup"
+          },
+          "metric": {
+            "amount": 236.588,
+            "unitShort": "ml",
+            "unitLong": "milliliters"
+          }
+        }
+      },
+      {
+        "id": 14106,
+        "aisle": "Alcoholic Beverages",
+        "image": "white-wine.jpg",
+        "consistency": "LIQUID",
+        "name": "white wine",
+        "nameClean": "dry white wine",
+        "original": "2 cups white wine",
+        "originalName": "white wine",
+        "amount": 2.0,
+        "unit": "cups",
+        "meta": ["white"],
+        "measures": {
+          "us": {
+            "amount": 2.0,
+            "unitShort": "cups",
+            "unitLong": "cups"
+          },
+          "metric": {
+            "amount": 473.176,
+            "unitShort": "ml",
+            "unitLong": "milliliters"
+          }
+        }
+      },
+      {
+        "id": 5006,
+        "aisle": "Meat",
+        "image": "whole-chicken.jpg",
+        "consistency": "SOLID",
+        "name": "whole chicken",
+        "nameClean": "whole chicken",
+        "original": "Whole chicken",
+        "originalName": "Whole chicken",
+        "amount": 4.0,
+        "unit": "servings",
+        "meta": ["whole"],
+        "measures": {
+          "us": {
+            "amount": 4.0,
+            "unitShort": "servings",
+            "unitLong": "servings"
+          },
+          "metric": {
+            "amount": 4.0,
+            "unitShort": "servings",
+            "unitLong": "servings"
+          }
+        }
+      },
+      {
+        "id": -1,
+        "aisle": "?",
+        "image": null,
+        "consistency": "SOLID",
+        "name": "lea",
+        "nameClean": null,
+        "original": "2 tablespoons Lea",
+        "originalName": "Lea",
+        "amount": 2.0,
+        "unit": "tablespoons",
+        "meta": [],
+        "measures": {
+          "us": {
+            "amount": 2.0,
+            "unitShort": "Tbsps",
+            "unitLong": "Tbsps"
+          },
+          "metric": {
+            "amount": 2.0,
+            "unitShort": "Tbsps",
+            "unitLong": "Tbsps"
+          }
+        }
+      }
+    ],
+    "id": 633524,
+    "title": "Baked Chicken In Roasting Bag",
+    "readyInMinutes": 45,
+    "servings": 4,
+    "sourceUrl": "http://www.foodista.com/recipe/6QLGHZLN/baked-chicken-in-roasting-bag",
+    "image": "https://spoonacular.com/recipeImages/633524-556x370.jpg",
+    "imageType": "jpg",
+    "summary": "You can never have too many main course recipes, so give Baked Chicken In Roasting Bag a try. This recipe makes 4 servings with <b>567 calories</b>, <b>25g of protein</b>, and <b>9g of fat</b> each. For <b>$3.72 per serving</b>, this recipe <b>covers 43%</b> of your daily requirements of vitamins and minerals. Only a few people made this recipe, and 1 would say it hit the spot. If you have parsley, garlic, flour, and a few other ingredients on hand, you can make it. To use up the water you could follow this main course with the <a href=\"https://spoonacular.com/recipes/watermelon-peach-slushies-507207\">Watermelon-Peach Slushies</a> as a dessert. From preparation to the plate, this recipe takes roughly <b>45 minutes</b>. It is a good option if you're following a <b>dairy free</b> diet. All things considered, we decided this recipe <b>deserves a spoonacular score of 82%</b>. This score is excellent. Similar recipes include <a href=\"https://spoonacular.com/recipes/brined-roasting-chicken-464140\">Brined Roasting Chicken</a>, <a href=\"https://spoonacular.com/recipes/oregano-roasting-chicken-450202\">Oregano Roasting Chicken</a>, and <a href=\"https://spoonacular.com/recipes/serious-heat-roasting-chiles-the-alton-brown-way-197619\">Serious Heat: Roasting Chiles the Alton Brown Way</a>.",
+    "cuisines": [],
+    "dishTypes": ["lunch", "main course", "main dish", "dinner"],
+    "diets": ["dairy free"],
+    "occasions": [],
+    "winePairing": {},
+    "instructions": "<ol><li>Put flour in roasting bag and shake to coat bag. Salt and pepper (red) chicken, putting a little of each inside of bag. Place in center of bag on left-over flour. Into bag, put 6 potatoes, cut in half, 6 whole onions, the quartered pepper and the carrots. Put 1 clove of garlic inside of chicken and 1 outside. Sprinkle with parsley.</li><li>In bowl mix wine, sauce and hot sauce. Pour around chicken, Not on it. Sprinkle with salt. Add 1 cup water around chicken so it doesn't get drunk while cooking. Seal bag, punch 12 holes in bag. Follow directions on roasting bag for baking.</li></ol>",
+    "analyzedInstructions": [
+      {
+        "name": "",
+        "steps": [
+          {
+            "number": 1,
+            "step": "Put flour in roasting bag and shake to coat bag. Salt and pepper (red) chicken, putting a little of each inside of bag.",
+            "ingredients": [
+              {
+                "id": 1102047,
+                "name": "salt and pepper",
+                "localizedName": "salt and pepper",
+                "image": "salt-and-pepper.jpg"
+              },
+              {
+                "id": 5006,
+                "name": "whole chicken",
+                "localizedName": "whole chicken",
+                "image": "whole-chicken.jpg"
+              },
+              {
+                "id": 20081,
+                "name": "all purpose flour",
+                "localizedName": "all purpose flour",
+                "image": "flour.png"
+              },
+              {
+                "id": 0,
+                "name": "shake",
+                "localizedName": "shake",
+                "image": ""
+              }
+            ],
+            "equipment": []
+          },
+          {
+            "number": 2,
+            "step": "Place in center of bag on left-over flour. Into bag, put 6 potatoes, cut in half, 6 whole onions, the quartered pepper and the carrots. Put 1 clove of garlic inside of chicken and 1 outside.",
+            "ingredients": [
+              {
+                "id": 11352,
+                "name": "potato",
+                "localizedName": "potato",
+                "image": "potatoes-yukon-gold.png"
+              },
+              {
+                "id": 11124,
+                "name": "carrot",
+                "localizedName": "carrot",
+                "image": "sliced-carrot.png"
+              },
+              {
+                "id": 5006,
+                "name": "whole chicken",
+                "localizedName": "whole chicken",
+                "image": "whole-chicken.jpg"
+              },
+              {
+                "id": 11215,
+                "name": "garlic",
+                "localizedName": "garlic",
+                "image": "garlic.png"
+              },
+              {
+                "id": 11282,
+                "name": "onion",
+                "localizedName": "onion",
+                "image": "brown-onion.png"
+              },
+              {
+                "id": 1002030,
+                "name": "pepper",
+                "localizedName": "pepper",
+                "image": "pepper.jpg"
+              },
+              {
+                "id": 1002011,
+                "name": "clove",
+                "localizedName": "clove",
+                "image": "cloves.jpg"
+              },
+              {
+                "id": 20081,
+                "name": "all purpose flour",
+                "localizedName": "all purpose flour",
+                "image": "flour.png"
+              }
+            ],
+            "equipment": []
+          },
+          {
+            "number": 3,
+            "step": "Sprinkle with parsley.In bowl mix wine, sauce and hot sauce.",
+            "ingredients": [
+              {
+                "id": 6168,
+                "name": "hot sauce",
+                "localizedName": "hot sauce",
+                "image": "hot-sauce-or-tabasco.png"
+              },
+              {
+                "id": 11297,
+                "name": "parsley",
+                "localizedName": "parsley",
+                "image": "parsley.jpg"
+              },
+              {
+                "id": 0,
+                "name": "sauce",
+                "localizedName": "sauce",
+                "image": ""
+              },
+              {
+                "id": 14084,
+                "name": "wine",
+                "localizedName": "wine",
+                "image": "red-wine.jpg"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404783,
+                "name": "bowl",
+                "localizedName": "bowl",
+                "image": "bowl.jpg"
+              }
+            ]
+          },
+          {
+            "number": 4,
+            "step": "Pour around chicken, Not on it.",
+            "ingredients": [
+              {
+                "id": 5006,
+                "name": "whole chicken",
+                "localizedName": "whole chicken",
+                "image": "whole-chicken.jpg"
+              }
+            ],
+            "equipment": []
+          },
+          {
+            "number": 5,
+            "step": "Sprinkle with salt.",
+            "ingredients": [
+              {
+                "id": 2047,
+                "name": "salt",
+                "localizedName": "salt",
+                "image": "salt.jpg"
+              }
+            ],
+            "equipment": []
+          },
+          {
+            "number": 6,
+            "step": "Add 1 cup water around chicken so it doesn't get drunk while cooking. Seal bag, punch 12 holes in bag. Follow directions on roasting bag for baking.",
+            "ingredients": [
+              {
+                "id": 5006,
+                "name": "whole chicken",
+                "localizedName": "whole chicken",
+                "image": "whole-chicken.jpg"
+              },
+              {
+                "id": 0,
+                "name": "punch",
+                "localizedName": "punch",
+                "image": ""
+              },
+              {
+                "id": 14412,
+                "name": "water",
+                "localizedName": "water",
+                "image": "water.png"
+              }
+            ],
+            "equipment": []
+          }
+        ]
+      }
+    ],
+    "originalId": null,
+    "spoonacularSourceUrl": "https://spoonacular.com/baked-chicken-in-roasting-bag-633524"
+  },
+  {
+    "vegetarian": false,
+    "vegan": false,
+    "glutenFree": true,
+    "dairyFree": true,
+    "veryHealthy": true,
+    "cheap": false,
+    "veryPopular": false,
+    "sustainable": false,
+    "lowFodmap": false,
+    "weightWatcherSmartPoints": 24,
+    "gaps": "no",
+    "preparationMinutes": -1,
+    "cookingMinutes": -1,
+    "aggregateLikes": 1,
+    "healthScore": 97,
+    "creditsText": "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    "license": "CC BY 3.0",
+    "sourceName": "Foodista",
+    "pricePerServing": 529.65,
+    "extendedIngredients": [
+      {
+        "id": 5006,
+        "aisle": "Meat",
+        "image": "whole-chicken.jpg",
+        "consistency": "SOLID",
+        "name": "chicken",
+        "nameClean": "whole chicken",
+        "original": "1 whole chicken -the one here is about 4.5lbs. (Free Range Chicken)",
+        "originalName": "whole chicken -the one here is about 4.5lbs. (Free Range Chicken)",
+        "amount": 1.0,
+        "unit": "",
+        "meta": ["whole", "free range", "( Chicken)"],
+        "measures": {
+          "us": {
+            "amount": 1.0,
+            "unitShort": "",
+            "unitLong": ""
+          },
+          "metric": {
+            "amount": 1.0,
+            "unitShort": "",
+            "unitLong": ""
+          }
+        }
+      },
+      {
+        "id": 11294,
+        "aisle": "Produce",
+        "image": "sweet-onion.png",
+        "consistency": "SOLID",
+        "name": "sweet onion",
+        "nameClean": "maui onion",
+        "original": "1 sweet onion (Vidalia or Walla Walla)",
+        "originalName": "sweet onion (Vidalia or Walla Walla)",
+        "amount": 1.0,
+        "unit": "",
+        "meta": ["sweet", "(Vidalia or Walla Walla)"],
+        "measures": {
+          "us": {
+            "amount": 1.0,
+            "unitShort": "",
+            "unitLong": ""
+          },
+          "metric": {
+            "amount": 1.0,
+            "unitShort": "",
+            "unitLong": ""
+          }
+        }
+      },
+      {
+        "id": 11215,
+        "aisle": "Produce",
+        "image": "garlic.png",
+        "consistency": "SOLID",
+        "name": "garlic cloves",
+        "nameClean": "garlic",
+        "original": "5 garlic cloves",
+        "originalName": "garlic cloves",
+        "amount": 5.0,
+        "unit": "",
+        "meta": [],
+        "measures": {
+          "us": {
+            "amount": 5.0,
+            "unitShort": "",
+            "unitLong": ""
+          },
+          "metric": {
+            "amount": 5.0,
+            "unitShort": "",
+            "unitLong": ""
+          }
+        }
+      },
+      {
+        "id": 11090,
+        "aisle": "Produce",
+        "image": "broccoli.jpg",
+        "consistency": "SOLID",
+        "name": "broccoli",
+        "nameClean": "broccoli",
+        "original": "3 heads broccoli- washed and cut",
+        "originalName": "broccoli- washed and cut",
+        "amount": 3.0,
+        "unit": "heads",
+        "meta": ["washed and cut"],
+        "measures": {
+          "us": {
+            "amount": 3.0,
+            "unitShort": "heads",
+            "unitLong": "heads"
+          },
+          "metric": {
+            "amount": 3.0,
+            "unitShort": "heads",
+            "unitLong": "heads"
+          }
+        }
+      },
+      {
+        "id": 11124,
+        "aisle": "Produce",
+        "image": "sliced-carrot.png",
+        "consistency": "SOLID",
+        "name": "carrots",
+        "nameClean": "carrot",
+        "original": "5 large carrots- peeled and sliced",
+        "originalName": "carrots- peeled and sliced",
+        "amount": 5.0,
+        "unit": "large",
+        "meta": ["peeled", "sliced"],
+        "measures": {
+          "us": {
+            "amount": 5.0,
+            "unitShort": "large",
+            "unitLong": "larges"
+          },
+          "metric": {
+            "amount": 5.0,
+            "unitShort": "large",
+            "unitLong": "larges"
+          }
+        }
+      },
+      {
+        "id": 9150,
+        "aisle": "Produce",
+        "image": "lemon.png",
+        "consistency": "SOLID",
+        "name": "lemons",
+        "nameClean": "lemon",
+        "original": "2 lemons",
+        "originalName": "lemons",
+        "amount": 2.0,
+        "unit": "",
+        "meta": [],
+        "measures": {
+          "us": {
+            "amount": 2.0,
+            "unitShort": "",
+            "unitLong": ""
+          },
+          "metric": {
+            "amount": 2.0,
+            "unitShort": "",
+            "unitLong": ""
+          }
+        }
+      },
+      {
+        "id": 2049,
+        "aisle": "Produce;Spices and Seasonings",
+        "image": "thyme.jpg",
+        "consistency": "SOLID",
+        "name": "thyme",
+        "nameClean": "thyme",
+        "original": "6 sprigs thyme",
+        "originalName": "thyme",
+        "amount": 6.0,
+        "unit": "sprigs",
+        "meta": [],
+        "measures": {
+          "us": {
+            "amount": 6.0,
+            "unitShort": "sprigs",
+            "unitLong": "sprigs"
+          },
+          "metric": {
+            "amount": 6.0,
+            "unitShort": "sprigs",
+            "unitLong": "sprigs"
+          }
+        }
+      },
+      {
+        "id": 4053,
+        "aisle": "Oil, Vinegar, Salad Dressing",
+        "image": "olive-oil.jpg",
+        "consistency": "LIQUID",
+        "name": "olive oil",
+        "nameClean": "olive oil",
+        "original": "1/4 c. olive oil",
+        "originalName": "olive oil",
+        "amount": 0.25,
+        "unit": "c",
+        "meta": [],
+        "measures": {
+          "us": {
+            "amount": 0.25,
+            "unitShort": "cups",
+            "unitLong": "cups"
+          },
+          "metric": {
+            "amount": 59.147,
+            "unitShort": "ml",
+            "unitLong": "milliliters"
+          }
+        }
+      },
+      {
+        "id": 2048,
+        "aisle": "Oil, Vinegar, Salad Dressing",
+        "image": "apple-cider-vinegar.jpg",
+        "consistency": "LIQUID",
+        "name": "apple cider vinegar",
+        "nameClean": "apple cider vinegar",
+        "original": "1/2 c. apple cider vinegar",
+        "originalName": "apple cider vinegar",
+        "amount": 0.5,
+        "unit": "c",
+        "meta": [],
+        "measures": {
+          "us": {
+            "amount": 0.5,
+            "unitShort": "cups",
+            "unitLong": "cups"
+          },
+          "metric": {
+            "amount": 118.294,
+            "unitShort": "ml",
+            "unitLong": "milliliters"
+          }
+        }
+      },
+      {
+        "id": 6172,
+        "aisle": "Canned and Jarred",
+        "image": "chicken-broth.png",
+        "consistency": "LIQUID",
+        "name": "chicken stock",
+        "nameClean": "chicken stock",
+        "original": "2 c. veggie or chicken stock",
+        "originalName": "veggie or chicken stock",
+        "amount": 2.0,
+        "unit": "c",
+        "meta": [],
+        "measures": {
+          "us": {
+            "amount": 2.0,
+            "unitShort": "cups",
+            "unitLong": "cups"
+          },
+          "metric": {
+            "amount": 473.176,
+            "unitShort": "ml",
+            "unitLong": "milliliters"
+          }
+        }
+      },
+      {
+        "id": 14412,
+        "aisle": "Beverages",
+        "image": "water.png",
+        "consistency": "LIQUID",
+        "name": "water",
+        "nameClean": "water",
+        "original": "1-2 c. water",
+        "originalName": "water",
+        "amount": 1.0,
+        "unit": "c",
+        "meta": [],
+        "measures": {
+          "us": {
+            "amount": 1.0,
+            "unitShort": "cup",
+            "unitLong": "cup"
+          },
+          "metric": {
+            "amount": 236.588,
+            "unitShort": "ml",
+            "unitLong": "milliliters"
+          }
+        }
+      },
+      {
+        "id": 1002030,
+        "aisle": "Spices and Seasonings",
+        "image": "pepper.jpg",
+        "consistency": "SOLID",
+        "name": "ground pepper",
+        "nameClean": "black pepper",
+        "original": "ground pepper",
+        "originalName": "ground pepper",
+        "amount": 1.0,
+        "unit": "serving",
+        "meta": [],
+        "measures": {
+          "us": {
+            "amount": 1.0,
+            "unitShort": "serving",
+            "unitLong": "serving"
+          },
+          "metric": {
+            "amount": 1.0,
+            "unitShort": "serving",
+            "unitLong": "serving"
+          }
+        }
+      },
+      {
+        "id": 11352,
+        "aisle": "Produce",
+        "image": "potatoes-yukon-gold.png",
+        "consistency": "SOLID",
+        "name": "potatoes",
+        "nameClean": "potato",
+        "original": "potatoes",
+        "originalName": "potatoes",
+        "amount": 1.0,
+        "unit": "serving",
+        "meta": [],
+        "measures": {
+          "us": {
+            "amount": 1.0,
+            "unitShort": "serving",
+            "unitLong": "serving"
+          },
+          "metric": {
+            "amount": 1.0,
+            "unitShort": "serving",
+            "unitLong": "serving"
+          }
+        }
+      },
+      {
+        "id": 11282,
+        "aisle": "Produce",
+        "image": "brown-onion.png",
+        "consistency": "SOLID",
+        "name": "onion",
+        "nameClean": "onion",
+        "original": "onion",
+        "originalName": "onion",
+        "amount": 1.0,
+        "unit": "serving",
+        "meta": [],
+        "measures": {
+          "us": {
+            "amount": 1.0,
+            "unitShort": "serving",
+            "unitLong": "serving"
+          },
+          "metric": {
+            "amount": 1.0,
+            "unitShort": "serving",
+            "unitLong": "serving"
+          }
+        }
+      },
+      {
+        "id": 11215,
+        "aisle": "Produce",
+        "image": "garlic.png",
+        "consistency": "SOLID",
+        "name": "garlic",
+        "nameClean": "garlic",
+        "original": "garlic",
+        "originalName": "garlic",
+        "amount": 1.0,
+        "unit": "serving",
+        "meta": [],
+        "measures": {
+          "us": {
+            "amount": 1.0,
+            "unitShort": "serving",
+            "unitLong": "serving"
+          },
+          "metric": {
+            "amount": 1.0,
+            "unitShort": "serving",
+            "unitLong": "serving"
+          }
+        }
+      },
+      {
+        "id": 1006615,
+        "aisle": "Canned and Jarred",
+        "image": "chicken-broth.png",
+        "consistency": "LIQUID",
+        "name": "stock",
+        "nameClean": "stock",
+        "original": "veggie stock",
+        "originalName": "veggie stock",
+        "amount": 1.0,
+        "unit": "serving",
+        "meta": [],
+        "measures": {
+          "us": {
+            "amount": 1.0,
+            "unitShort": "serving",
+            "unitLong": "serving"
+          },
+          "metric": {
+            "amount": 1.0,
+            "unitShort": "serving",
+            "unitLong": "serving"
+          }
+        }
+      },
+      {
+        "id": 1102047,
+        "aisle": "Spices and Seasonings",
+        "image": "salt-and-pepper.jpg",
+        "consistency": "SOLID",
+        "name": "salt and pepper",
+        "nameClean": "salt and pepper",
+        "original": "salt and pepper",
+        "originalName": "salt and pepper",
+        "amount": 1.0,
+        "unit": "serving",
+        "meta": [],
+        "measures": {
+          "us": {
+            "amount": 1.0,
+            "unitShort": "serving",
+            "unitLong": "serving"
+          },
+          "metric": {
+            "amount": 1.0,
+            "unitShort": "serving",
+            "unitLong": "serving"
+          }
+        }
+      }
+    ],
+    "id": 665261,
+    "title": "Whole Chicken Dinner",
+    "readyInMinutes": 45,
+    "servings": 3,
+    "sourceUrl": "https://www.foodista.com/recipe/Q5H23WXX/whole-chicken-dinner",
+    "image": "https://spoonacular.com/recipeImages/665261-556x370.jpg",
+    "imageType": "jpg",
+    "summary": "Need a <b>gluten free, dairy free, and whole 30 main course</b>? Whole Chicken Dinner could be a tremendous recipe to try. This recipe serves 3 and costs $5.3 per serving. One portion of this dish contains roughly <b>72g of protein</b>, <b>61g of fat</b>, and a total of <b>1106 calories</b>. 1 person has made this recipe and would make it again. A mixture of broccoli, thyme, veggie stock, and a handful of other ingredients are all it takes to make this recipe so yummy. From preparation to the plate, this recipe takes around <b>around 45 minutes</b>. It is brought to you by Foodista. All things considered, we decided this recipe <b>deserves a spoonacular score of 89%</b>. This score is great. Similar recipes include <a href=\"https://spoonacular.com/recipes/pecan-crusted-chicken-dinner-for-dinner-620840\">Pecan-Crusted Chicken Dinner for Dinner</a>, <a href=\"https://spoonacular.com/recipes/rosemary-chicken-an-easy-to-make-chicken-dinner-that-practically-cooks-itself-599581\">Rosemary Chicken an easy to make chicken dinner that practically cooks itself</a>, and <a href=\"https://spoonacular.com/recipes/amazing-chicken-fricasee-you-can-make-citrus-chicken-for-dinner-599730\">Amazing Chicken Fricasee – you can make citrus chicken for dinner</a>.",
+    "cuisines": [],
+    "dishTypes": ["lunch", "main course", "main dish", "dinner"],
+    "diets": ["gluten free", "dairy free", "whole 30"],
+    "occasions": [],
+    "winePairing": {
+      "pairedWines": [],
+      "pairingText": "",
+      "productMatches": []
+    },
+    "instructions": "First, preheat your oven to 375.\nThen, place your chicken in a baking pot or pan. Be sure to check and remove that little bag of goodies from inside of the chicken.\nPour in your chicken stock, apple cider vinegar, and 1c. water.\nDepending on how many vegetables you end up adding, you may add more water.\nWash your vegetables. Peel and chop your carrots, and chop your broccoli. Throw your veggies into the pot.\nCut and add potatoes at this time if you are going for the full chicken dinner.  Also, If you are serving more guest, add more of each vegetable.\nNow, grind a little fresh pepper onto your chicken. Set aside.\nCut your onion and mince your garlic.\nIn a sauce pan, add onion, garlic, and olive oil. Saute for several minutes. Pour onto your chicken. You should have excess olive oil in your pan that you can pour and rub over your chicken.\nLast steps: Slice your lemons. Squeeze them over your chicken and all about in your pot. I like to lay some on my chicken and then just throw the rest in.\nThen add a few sprigs of thyme. I through in several whole springs, as well as sheered and sprinkled some onto the chicken.\nCover and place your beautiful chicken into the oven on 375 for 1 hr. After an hour, un-cover and cook for at least 30min. until done and browned on top.\nThen, remove from  the oven, and serve.",
+    "analyzedInstructions": [
+      {
+        "name": "",
+        "steps": [
+          {
+            "number": 1,
+            "step": "First, preheat your oven to 37",
+            "ingredients": [],
+            "equipment": [
+              {
+                "id": 404784,
+                "name": "oven",
+                "localizedName": "oven",
+                "image": "oven.jpg"
+              }
+            ]
+          },
+          {
+            "number": 2,
+            "step": "Then, place your chicken in a baking pot or pan. Be sure to check and remove that little bag of goodies from inside of the chicken.",
+            "ingredients": [
+              {
+                "id": 5006,
+                "name": "whole chicken",
+                "localizedName": "whole chicken",
+                "image": "whole-chicken.jpg"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404645,
+                "name": "frying pan",
+                "localizedName": "frying pan",
+                "image": "pan.png"
+              },
+              {
+                "id": 404752,
+                "name": "pot",
+                "localizedName": "pot",
+                "image": "stock-pot.jpg"
+              }
+            ]
+          },
+          {
+            "number": 3,
+            "step": "Pour in your chicken stock, apple cider vinegar, and 1c. water.",
+            "ingredients": [
+              {
+                "id": 2048,
+                "name": "apple cider vinegar",
+                "localizedName": "apple cider vinegar",
+                "image": "apple-cider-vinegar.jpg"
+              },
+              {
+                "id": 6172,
+                "name": "chicken stock",
+                "localizedName": "chicken stock",
+                "image": "chicken-broth.png"
+              },
+              {
+                "id": 14412,
+                "name": "water",
+                "localizedName": "water",
+                "image": "water.png"
+              }
+            ],
+            "equipment": []
+          },
+          {
+            "number": 4,
+            "step": "Depending on how many vegetables you end up adding, you may add more water.",
+            "ingredients": [
+              {
+                "id": 11583,
+                "name": "vegetable",
+                "localizedName": "vegetable",
+                "image": "mixed-vegetables.png"
+              },
+              {
+                "id": 14412,
+                "name": "water",
+                "localizedName": "water",
+                "image": "water.png"
+              }
+            ],
+            "equipment": []
+          },
+          {
+            "number": 5,
+            "step": "Wash your vegetables. Peel and chop your carrots, and chop your broccoli. Throw your veggies into the pot.",
+            "ingredients": [
+              {
+                "id": 11583,
+                "name": "vegetable",
+                "localizedName": "vegetable",
+                "image": "mixed-vegetables.png"
+              },
+              {
+                "id": 11090,
+                "name": "broccoli",
+                "localizedName": "broccoli",
+                "image": "broccoli.jpg"
+              },
+              {
+                "id": 11124,
+                "name": "carrot",
+                "localizedName": "carrot",
+                "image": "sliced-carrot.png"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404752,
+                "name": "pot",
+                "localizedName": "pot",
+                "image": "stock-pot.jpg"
+              }
+            ]
+          },
+          {
+            "number": 6,
+            "step": "Cut and add potatoes at this time if you are going for the full chicken dinner.  Also, If you are serving more guest, add more of each vegetable.",
+            "ingredients": [
+              {
+                "id": 11583,
+                "name": "vegetable",
+                "localizedName": "vegetable",
+                "image": "mixed-vegetables.png"
+              },
+              {
+                "id": 11352,
+                "name": "potato",
+                "localizedName": "potato",
+                "image": "potatoes-yukon-gold.png"
+              },
+              {
+                "id": 5006,
+                "name": "whole chicken",
+                "localizedName": "whole chicken",
+                "image": "whole-chicken.jpg"
+              }
+            ],
+            "equipment": []
+          },
+          {
+            "number": 7,
+            "step": "Now, grind a little fresh pepper onto your chicken. Set aside.",
+            "ingredients": [
+              {
+                "id": 5006,
+                "name": "whole chicken",
+                "localizedName": "whole chicken",
+                "image": "whole-chicken.jpg"
+              },
+              {
+                "id": 1002030,
+                "name": "pepper",
+                "localizedName": "pepper",
+                "image": "pepper.jpg"
+              }
+            ],
+            "equipment": []
+          },
+          {
+            "number": 8,
+            "step": "Cut your onion and mince your garlic.",
+            "ingredients": [
+              {
+                "id": 11215,
+                "name": "garlic",
+                "localizedName": "garlic",
+                "image": "garlic.png"
+              },
+              {
+                "id": 0,
+                "name": "ground meat",
+                "localizedName": "ground meat",
+                "image": "fresh-ground-beef.jpg"
+              },
+              {
+                "id": 11282,
+                "name": "onion",
+                "localizedName": "onion",
+                "image": "brown-onion.png"
+              }
+            ],
+            "equipment": []
+          },
+          {
+            "number": 9,
+            "step": "In a sauce pan, add onion, garlic, and olive oil.",
+            "ingredients": [
+              {
+                "id": 4053,
+                "name": "olive oil",
+                "localizedName": "olive oil",
+                "image": "olive-oil.jpg"
+              },
+              {
+                "id": 11215,
+                "name": "garlic",
+                "localizedName": "garlic",
+                "image": "garlic.png"
+              },
+              {
+                "id": 11282,
+                "name": "onion",
+                "localizedName": "onion",
+                "image": "brown-onion.png"
+              },
+              {
+                "id": 0,
+                "name": "sauce",
+                "localizedName": "sauce",
+                "image": ""
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404669,
+                "name": "sauce pan",
+                "localizedName": "sauce pan",
+                "image": "sauce-pan.jpg"
+              }
+            ]
+          },
+          {
+            "number": 10,
+            "step": "Saute for several minutes.",
+            "ingredients": [],
+            "equipment": []
+          },
+          {
+            "number": 11,
+            "step": "Pour onto your chicken. You should have excess olive oil in your pan that you can pour and rub over your chicken.",
+            "ingredients": [
+              {
+                "id": 4053,
+                "name": "olive oil",
+                "localizedName": "olive oil",
+                "image": "olive-oil.jpg"
+              },
+              {
+                "id": 5006,
+                "name": "whole chicken",
+                "localizedName": "whole chicken",
+                "image": "whole-chicken.jpg"
+              },
+              {
+                "id": 1012034,
+                "name": "dry seasoning rub",
+                "localizedName": "dry seasoning rub",
+                "image": "seasoning.png"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404645,
+                "name": "frying pan",
+                "localizedName": "frying pan",
+                "image": "pan.png"
+              }
+            ]
+          },
+          {
+            "number": 12,
+            "step": "Last steps: Slice your lemons. Squeeze them over your chicken and all about in your pot. I like to lay some on my chicken and then just throw the rest in.",
+            "ingredients": [
+              {
+                "id": 5006,
+                "name": "whole chicken",
+                "localizedName": "whole chicken",
+                "image": "whole-chicken.jpg"
+              },
+              {
+                "id": 9150,
+                "name": "lemon",
+                "localizedName": "lemon",
+                "image": "lemon.png"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404752,
+                "name": "pot",
+                "localizedName": "pot",
+                "image": "stock-pot.jpg"
+              }
+            ]
+          },
+          {
+            "number": 13,
+            "step": "Then add a few sprigs of thyme. I through in several whole springs, as well as sheered and sprinkled some onto the chicken.",
+            "ingredients": [
+              {
+                "id": 5006,
+                "name": "whole chicken",
+                "localizedName": "whole chicken",
+                "image": "whole-chicken.jpg"
+              },
+              {
+                "id": 2049,
+                "name": "thyme",
+                "localizedName": "thyme",
+                "image": "thyme.jpg"
+              }
+            ],
+            "equipment": []
+          },
+          {
+            "number": 14,
+            "step": "Cover and place your beautiful chicken into the oven on 375 for 1 hr. After an hour, un-cover and cook for at least 30min. until done and browned on top.",
+            "ingredients": [
+              {
+                "id": 5006,
+                "name": "whole chicken",
+                "localizedName": "whole chicken",
+                "image": "whole-chicken.jpg"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404784,
+                "name": "oven",
+                "localizedName": "oven",
+                "image": "oven.jpg"
+              }
+            ],
+            "length": {
+              "number": 30,
+              "unit": "minutes"
+            }
+          },
+          {
+            "number": 15,
+            "step": "Then, remove from  the oven, and serve.",
+            "ingredients": [],
+            "equipment": [
+              {
+                "id": 404784,
+                "name": "oven",
+                "localizedName": "oven",
+                "image": "oven.jpg"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "originalId": null,
+    "spoonacularSourceUrl": "https://spoonacular.com/whole-chicken-dinner-665261"
+  },
+  {
+    "vegetarian": false,
+    "vegan": false,
+    "glutenFree": true,
+    "dairyFree": true,
+    "veryHealthy": true,
+    "cheap": false,
+    "veryPopular": false,
+    "sustainable": false,
+    "lowFodmap": false,
+    "weightWatcherSmartPoints": 136,
+    "gaps": "no",
+    "preparationMinutes": -1,
+    "cookingMinutes": -1,
+    "aggregateLikes": 1,
+    "healthScore": 93,
+    "creditsText": "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    "license": "CC BY 3.0",
+    "sourceName": "Foodista",
+    "pricePerServing": 1329.19,
+    "extendedIngredients": [
+      {
+        "id": 2001,
+        "aisle": "Spices and Seasonings",
+        "image": "allspice-ground.jpg",
+        "consistency": "SOLID",
+        "name": "allspice",
+        "nameClean": "allspice",
+        "original": "1 teaspoon Allspice",
+        "originalName": "Allspice",
+        "amount": 1.0,
+        "unit": "teaspoon",
+        "meta": [],
+        "measures": {
+          "us": {
+            "amount": 1.0,
+            "unitShort": "tsp",
+            "unitLong": "teaspoon"
+          },
+          "metric": {
+            "amount": 1.0,
+            "unitShort": "tsp",
+            "unitLong": "teaspoon"
+          }
+        }
+      },
+      {
+        "id": 9003,
+        "aisle": "Produce",
+        "image": "apple.jpg",
+        "consistency": "SOLID",
+        "name": "apples",
+        "nameClean": "apple",
+        "original": "2 Apples",
+        "originalName": "Apples",
+        "amount": 2.0,
+        "unit": "",
+        "meta": [],
+        "measures": {
+          "us": {
+            "amount": 2.0,
+            "unitShort": "",
+            "unitLong": ""
+          },
+          "metric": {
+            "amount": 2.0,
+            "unitShort": "",
+            "unitLong": ""
+          }
+        }
+      },
+      {
+        "id": 19334,
+        "aisle": "Baking",
+        "image": "light-brown-sugar.jpg",
+        "consistency": "SOLID",
+        "name": "brown sugar",
+        "nameClean": "golden brown sugar",
+        "original": "cup Packed brown sugar",
+        "originalName": "Packed brown sugar",
+        "amount": 1.0,
+        "unit": "cup",
+        "meta": ["packed"],
+        "measures": {
+          "us": {
+            "amount": 1.0,
+            "unitShort": "cup",
+            "unitLong": "cup"
+          },
+          "metric": {
+            "amount": 236.588,
+            "unitShort": "ml",
+            "unitLong": "milliliters"
+          }
+        }
+      },
+      {
+        "id": 11124,
+        "aisle": "Produce",
+        "image": "sliced-carrot.png",
+        "consistency": "SOLID",
+        "name": "carrots",
+        "nameClean": "carrot",
+        "original": "6 Carrots",
+        "originalName": "Carrots",
+        "amount": 6.0,
+        "unit": "",
+        "meta": [],
+        "measures": {
+          "us": {
+            "amount": 6.0,
+            "unitShort": "",
+            "unitLong": ""
+          },
+          "metric": {
+            "amount": 6.0,
+            "unitShort": "",
+            "unitLong": ""
+          }
+        }
+      },
+      {
+        "id": 10111143,
+        "aisle": "Produce",
+        "image": "celery.jpg",
+        "consistency": "SOLID",
+        "name": "celery stalks",
+        "nameClean": "celery sticks",
+        "original": "4 Celery stalks",
+        "originalName": "Celery stalks",
+        "amount": 4.0,
+        "unit": "",
+        "meta": [],
+        "measures": {
+          "us": {
+            "amount": 4.0,
+            "unitShort": "",
+            "unitLong": ""
+          },
+          "metric": {
+            "amount": 4.0,
+            "unitShort": "",
+            "unitLong": ""
+          }
+        }
+      },
+      {
+        "id": 5006,
+        "aisle": "Meat",
+        "image": "whole-chicken.jpg",
+        "consistency": "SOLID",
+        "name": "chicken",
+        "nameClean": "whole chicken",
+        "original": "1 Chicken, cut up",
+        "originalName": "Chicken, cut up",
+        "amount": 1.0,
+        "unit": "",
+        "meta": [],
+        "measures": {
+          "us": {
+            "amount": 1.0,
+            "unitShort": "",
+            "unitLong": ""
+          },
+          "metric": {
+            "amount": 1.0,
+            "unitShort": "",
+            "unitLong": ""
+          }
+        }
+      },
+      {
+        "id": 2010,
+        "aisle": "Spices and Seasonings",
+        "image": "cinnamon.jpg",
+        "consistency": "SOLID",
+        "name": "cinnamon",
+        "nameClean": "cinnamon",
+        "original": "teaspoon Cinnamon",
+        "originalName": "Cinnamon",
+        "amount": 1.0,
+        "unit": "teaspoon",
+        "meta": [],
+        "measures": {
+          "us": {
+            "amount": 1.0,
+            "unitShort": "tsp",
+            "unitLong": "teaspoon"
+          },
+          "metric": {
+            "amount": 1.0,
+            "unitShort": "tsp",
+            "unitLong": "teaspoon"
+          }
+        }
+      },
+      {
+        "id": 11215,
+        "aisle": "Produce",
+        "image": "garlic.png",
+        "consistency": "SOLID",
+        "name": "garlic",
+        "nameClean": "garlic",
+        "original": "8 cloves garlic",
+        "originalName": "garlic",
+        "amount": 8.0,
+        "unit": "cloves",
+        "meta": [],
+        "measures": {
+          "us": {
+            "amount": 8.0,
+            "unitShort": "cloves",
+            "unitLong": "cloves"
+          },
+          "metric": {
+            "amount": 8.0,
+            "unitShort": "cloves",
+            "unitLong": "cloves"
+          }
+        }
+      },
+      {
+        "id": 19911,
+        "aisle": "Cereal",
+        "image": "maple-syrup.png",
+        "consistency": "LIQUID",
+        "name": "maple syrup",
+        "nameClean": "maple syrup",
+        "original": "1 tablespoon maple syrup",
+        "originalName": "maple syrup",
+        "amount": 1.0,
+        "unit": "tablespoon",
+        "meta": [],
+        "measures": {
+          "us": {
+            "amount": 1.0,
+            "unitShort": "Tbsp",
+            "unitLong": "Tbsp"
+          },
+          "metric": {
+            "amount": 1.0,
+            "unitShort": "Tbsp",
+            "unitLong": "Tbsp"
+          }
+        }
+      },
+      {
+        "id": 11282,
+        "aisle": "Produce",
+        "image": "brown-onion.png",
+        "consistency": "SOLID",
+        "name": "onion",
+        "nameClean": "onion",
+        "original": "1 large Onion",
+        "originalName": "Onion",
+        "amount": 1.0,
+        "unit": "large",
+        "meta": [],
+        "measures": {
+          "us": {
+            "amount": 1.0,
+            "unitShort": "large",
+            "unitLong": "large"
+          },
+          "metric": {
+            "amount": 1.0,
+            "unitShort": "large",
+            "unitLong": "large"
+          }
+        }
+      },
+      {
+        "id": 9206,
+        "aisle": "Beverages",
+        "image": "orange-juice.jpg",
+        "consistency": "LIQUID",
+        "name": "orange juice",
+        "nameClean": "orange juice",
+        "original": "1 cup Orange juice",
+        "originalName": "Orange juice",
+        "amount": 1.0,
+        "unit": "cup",
+        "meta": [],
+        "measures": {
+          "us": {
+            "amount": 1.0,
+            "unitShort": "cup",
+            "unitLong": "cup"
+          },
+          "metric": {
+            "amount": 236.588,
+            "unitShort": "ml",
+            "unitLong": "milliliters"
+          }
+        }
+      },
+      {
+        "id": 11352,
+        "aisle": "Produce",
+        "image": "potatoes-yukon-gold.png",
+        "consistency": "SOLID",
+        "name": "potatoes",
+        "nameClean": "potato",
+        "original": "3 Potatoes",
+        "originalName": "Potatoes",
+        "amount": 3.0,
+        "unit": "",
+        "meta": [],
+        "measures": {
+          "us": {
+            "amount": 3.0,
+            "unitShort": "",
+            "unitLong": ""
+          },
+          "metric": {
+            "amount": 3.0,
+            "unitShort": "",
+            "unitLong": ""
+          }
+        }
+      },
+      {
+        "id": 2034,
+        "aisle": "Spices and Seasonings",
+        "image": "seasoning.jpg",
+        "consistency": "SOLID",
+        "name": "poultry seasoning",
+        "nameClean": "poultry seasoning",
+        "original": "1 tablespoon Poultry seasoning",
+        "originalName": "Poultry seasoning",
+        "amount": 1.0,
+        "unit": "tablespoon",
+        "meta": [],
+        "measures": {
+          "us": {
+            "amount": 1.0,
+            "unitShort": "Tbsp",
+            "unitLong": "Tbsp"
+          },
+          "metric": {
+            "amount": 1.0,
+            "unitShort": "Tbsp",
+            "unitLong": "Tbsp"
+          }
+        }
+      },
+      {
+        "id": 2047,
+        "aisle": "Spices and Seasonings",
+        "image": "salt.jpg",
+        "consistency": "SOLID",
+        "name": "salt",
+        "nameClean": "table salt",
+        "original": "1 dash Salt",
+        "originalName": "Salt",
+        "amount": 1.0,
+        "unit": "dash",
+        "meta": [],
+        "measures": {
+          "us": {
+            "amount": 1.0,
+            "unitShort": "dash",
+            "unitLong": "dash"
+          },
+          "metric": {
+            "amount": 1.0,
+            "unitShort": "dash",
+            "unitLong": "dash"
+          }
+        }
+      },
+      {
+        "id": 11507,
+        "aisle": "Produce",
+        "image": "sweet-potato.png",
+        "consistency": "SOLID",
+        "name": "sweet potatoes",
+        "nameClean": "sweet potato",
+        "original": "2 Sweet potatoes",
+        "originalName": "Sweet potatoes",
+        "amount": 2.0,
+        "unit": "",
+        "meta": [],
+        "measures": {
+          "us": {
+            "amount": 2.0,
+            "unitShort": "",
+            "unitLong": ""
+          },
+          "metric": {
+            "amount": 2.0,
+            "unitShort": "",
+            "unitLong": ""
+          }
+        }
+      },
+      {
+        "id": 6971,
+        "aisle": "Condiments",
+        "image": "dark-sauce.jpg",
+        "consistency": "LIQUID",
+        "name": "worcestershire sauce",
+        "nameClean": "worcestershire sauce",
+        "original": "cup Worcestershire sauce",
+        "originalName": "Worcestershire sauce",
+        "amount": 1.0,
+        "unit": "cup",
+        "meta": [],
+        "measures": {
+          "us": {
+            "amount": 1.0,
+            "unitShort": "cup",
+            "unitLong": "cup"
+          },
+          "metric": {
+            "amount": 236.588,
+            "unitShort": "ml",
+            "unitLong": "milliliters"
+          }
+        }
+      }
+    ],
+    "id": 648626,
+    "title": "Juiced-Up Chicken",
+    "readyInMinutes": 45,
+    "servings": 1,
+    "sourceUrl": "http://www.foodista.com/recipe/VPDJW24K/juiced-up-chicken",
+    "image": "https://spoonacular.com/recipeImages/648626-556x370.jpg",
+    "imageType": "jpg",
+    "summary": "Juiced-Up Chicken might be just the main course you are searching for. This gluten free and dairy free recipe serves 1 and costs <b>$8.69 per serving</b>. One serving contains <b>2280 calories</b>, <b>31g of protein</b>, and <b>4g of fat</b>. This recipe from Foodista has 1 fans. Head to the store and pick up garlic, apples, salt, and a few other things to make it today. To use up the cinnamon you could follow this main course with the <a href=\"https://spoonacular.com/recipes/cinnamon-fudge-836311\">Cinnamon Fudge</a> as a dessert. All things considered, we decided this recipe <b>deserves a spoonacular score of 87%</b>. This score is tremendous. Similar recipes include <a href=\"https://spoonacular.com/recipes/juiced-up-roast-pork-81016\">Juiced-up Roast Pork</a>, <a href=\"https://spoonacular.com/recipes/i-aint-chicken-chicken-crispy-roasted-chicken-breasts-with-orange-and-cardamom-310658\">I Ain't Chicken Chicken: Crispy Roasted Chicken Breasts with Orange and Cardamom</a>, and <a href=\"https://spoonacular.com/recipes/the-best-shredded-chicken-for-your-chicken-dishes-+-homemade-chicken-broth-528123\">The Best Shredded Chicken For Your Chicken Dishes + Homemade Chicken Broth</a>.",
+    "cuisines": [],
+    "dishTypes": ["lunch", "main course", "main dish", "dinner"],
+    "diets": ["gluten free", "dairy free"],
+    "occasions": [],
+    "winePairing": {
+      "pairedWines": [],
+      "pairingText": "",
+      "productMatches": []
+    },
+    "instructions": "<ol><li>Arrange the chicken and cut vegetables in a large roasting pan. Sprinkle with poultry seasoning, salt, Worcestershire, and 1/2 cup of the juice.</li><li>Cover, place in 350F oven for 30 minutes. Then sprinkle with brown sugar, any remaining spices, seasonings, and juice. Cover and back to oven for 45 minutes, basting frequently. Garnish with additional sliced fresh oranges or apples if you'd like.</li></ol>",
+    "analyzedInstructions": [
+      {
+        "name": "",
+        "steps": [
+          {
+            "number": 1,
+            "step": "Arrange the chicken and cut vegetables in a large roasting pan.",
+            "ingredients": [
+              {
+                "id": 11583,
+                "name": "vegetable",
+                "localizedName": "vegetable",
+                "image": "mixed-vegetables.png"
+              },
+              {
+                "id": 5006,
+                "name": "whole chicken",
+                "localizedName": "whole chicken",
+                "image": "whole-chicken.jpg"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404629,
+                "name": "roasting pan",
+                "localizedName": "roasting pan",
+                "image": "roasting-pan.jpg"
+              }
+            ]
+          },
+          {
+            "number": 2,
+            "step": "Sprinkle with poultry seasoning, salt, Worcestershire, and 1/2 cup of the juice.Cover, place in 350F oven for 30 minutes. Then sprinkle with brown sugar, any remaining spices, seasonings, and juice. Cover and back to oven for 45 minutes, basting frequently.",
+            "ingredients": [
+              {
+                "id": 2034,
+                "name": "poultry seasoning",
+                "localizedName": "poultry seasoning",
+                "image": "seasoning.jpg"
+              },
+              {
+                "id": 6971,
+                "name": "worcestershire sauce",
+                "localizedName": "worcestershire sauce",
+                "image": "dark-sauce.jpg"
+              },
+              {
+                "id": 19334,
+                "name": "brown sugar",
+                "localizedName": "brown sugar",
+                "image": "dark-brown-sugar.png"
+              },
+              {
+                "id": 1042027,
+                "name": "seasoning",
+                "localizedName": "seasoning",
+                "image": "seasoning.png"
+              },
+              {
+                "id": 2035,
+                "name": "spices",
+                "localizedName": "spices",
+                "image": "spices.png"
+              },
+              {
+                "id": 1019016,
+                "name": "juice",
+                "localizedName": "juice",
+                "image": "apple-juice.jpg"
+              },
+              {
+                "id": 2047,
+                "name": "salt",
+                "localizedName": "salt",
+                "image": "salt.jpg"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404784,
+                "name": "oven",
+                "localizedName": "oven",
+                "image": "oven.jpg",
+                "temperature": {
+                  "number": 350.0,
+                  "unit": "Fahrenheit"
+                }
+              }
+            ],
+            "length": {
+              "number": 75,
+              "unit": "minutes"
+            }
+          },
+          {
+            "number": 3,
+            "step": "Garnish with additional sliced fresh oranges or apples if you'd like.",
+            "ingredients": [
+              {
+                "id": 9200,
+                "name": "orange",
+                "localizedName": "orange",
+                "image": "orange.png"
+              },
+              {
+                "id": 9003,
+                "name": "apple",
+                "localizedName": "apple",
+                "image": "apple.jpg"
+              }
+            ],
+            "equipment": []
+          }
+        ]
+      }
+    ],
+    "originalId": null,
+    "spoonacularSourceUrl": "https://spoonacular.com/juiced-up-chicken-648626"
+  },
+  {
+    "vegetarian": false,
+    "vegan": false,
+    "glutenFree": true,
+    "dairyFree": true,
+    "veryHealthy": false,
+    "cheap": false,
+    "veryPopular": false,
+    "sustainable": false,
+    "lowFodmap": true,
+    "weightWatcherSmartPoints": 19,
+    "gaps": "no",
+    "preparationMinutes": -1,
+    "cookingMinutes": -1,
+    "aggregateLikes": 1,
+    "healthScore": 33,
+    "pricePerServing": 208.73,
+    "extendedIngredients": [
+      {
+        "id": 4053,
+        "aisle": "Oil, Vinegar, Salad Dressing",
+        "image": "olive-oil.jpg",
+        "consistency": "LIQUID",
+        "name": "olive oil",
+        "nameClean": "olive oil",
+        "original": "3 T. olive oil",
+        "originalName": "olive oil",
+        "amount": 3.0,
+        "unit": "T",
+        "meta": [],
+        "measures": {
+          "us": {
+            "amount": 3.0,
+            "unitShort": "Tbsps",
+            "unitLong": "Tbsps"
+          },
+          "metric": {
+            "amount": 3.0,
+            "unitShort": "Tbsps",
+            "unitLong": "Tbsps"
+          }
+        }
+      },
+      {
+        "id": 2049,
+        "aisle": "Produce;Spices and Seasonings",
+        "image": "thyme.jpg",
+        "consistency": "SOLID",
+        "name": "fresh thyme",
+        "nameClean": "thyme",
+        "original": "2 t. minced fresh thyme",
+        "originalName": "minced fresh thyme",
+        "amount": 2.0,
+        "unit": "t",
+        "meta": ["fresh", "minced"],
+        "measures": {
+          "us": {
+            "amount": 2.0,
+            "unitShort": "tsps",
+            "unitLong": "teaspoons"
+          },
+          "metric": {
+            "amount": 2.0,
+            "unitShort": "tsps",
+            "unitLong": "teaspoons"
+          }
+        }
+      },
+      {
+        "id": 1012028,
+        "aisle": "Spices and Seasonings",
+        "image": "paprika.jpg",
+        "consistency": "SOLID",
+        "name": "smoked paprika",
+        "nameClean": "smoked paprika",
+        "original": "1 1/2 t. smoked paprika",
+        "originalName": "smoked paprika",
+        "amount": 1.5,
+        "unit": "t",
+        "meta": ["smoked"],
+        "measures": {
+          "us": {
+            "amount": 1.5,
+            "unitShort": "tsps",
+            "unitLong": "teaspoons"
+          },
+          "metric": {
+            "amount": 1.5,
+            "unitShort": "tsps",
+            "unitLong": "teaspoons"
+          }
+        }
+      },
+      {
+        "id": 1102047,
+        "aisle": "Spices and Seasonings",
+        "image": "salt-and-pepper.jpg",
+        "consistency": "SOLID",
+        "name": "Salt & Pepper",
+        "nameClean": "salt and pepper",
+        "original": "salt & pepper",
+        "originalName": "salt & pepper",
+        "amount": 1.0,
+        "unit": "serving",
+        "meta": [],
+        "measures": {
+          "us": {
+            "amount": 1.0,
+            "unitShort": "serving",
+            "unitLong": "serving"
+          },
+          "metric": {
+            "amount": 1.0,
+            "unitShort": "serving",
+            "unitLong": "serving"
+          }
+        }
+      },
+      {
+        "id": 5006,
+        "aisle": "Meat",
+        "image": "whole-chicken.jpg",
+        "consistency": "SOLID",
+        "name": "chicken",
+        "nameClean": "whole chicken",
+        "original": "1 whole chicken (4-5 lb.), cleaned and patted dry with paper towels",
+        "originalName": "whole chicken , cleaned and patted dry with paper towels",
+        "amount": 4.0,
+        "unit": "lb",
+        "meta": ["whole", "dry", "with paper towels", "cleaned"],
+        "measures": {
+          "us": {
+            "amount": 4.0,
+            "unitShort": "lb",
+            "unitLong": "pounds"
+          },
+          "metric": {
+            "amount": 1.814,
+            "unitShort": "kgs",
+            "unitLong": "kgs"
+          }
+        }
+      },
+      {
+        "id": 10211362,
+        "aisle": "Produce",
+        "image": "potatoes-yukon-gold.png",
+        "consistency": "SOLID",
+        "name": "yukon gold potatoes",
+        "nameClean": "yukon gold potato",
+        "original": "2 lb. Yukon Gold potatoes, peeled, ends trimmed flat and sliced into 1-inch slices",
+        "originalName": "Yukon Gold potatoes, peeled, ends trimmed flat and sliced into 1-inch slices",
+        "amount": 2.0,
+        "unit": "lb",
+        "meta": ["ends trimmed", "peeled", "sliced into 1-inch slices"],
+        "measures": {
+          "us": {
+            "amount": 2.0,
+            "unitShort": "lb",
+            "unitLong": "pounds"
+          },
+          "metric": {
+            "amount": 907.185,
+            "unitShort": "g",
+            "unitLong": "grams"
+          }
+        }
+      }
+    ],
+    "id": 660220,
+    "title": "Skillet Roasted Chicken & Potatoes",
+    "readyInMinutes": 45,
+    "servings": 4,
+    "sourceUrl": "https://www.foodista.com/recipe/BCC472YG/skillet-roasted-chicken-potatoes",
+    "image": "https://spoonacular.com/recipeImages/660220-556x370.jpg",
+    "imageType": "jpg",
+    "summary": "Skillet Roasted Chicken & Potatoes is a <b>gluten free, dairy free, fodmap friendly, and whole 30</b> main course. This recipe makes 4 servings with <b>695 calories</b>, <b>46g of protein</b>, and <b>44g of fat</b> each. For <b>$2.09 per serving</b>, this recipe <b>covers 32%</b> of your daily requirements of vitamins and minerals. From preparation to the plate, this recipe takes about <b>about 45 minutes</b>. 1 person has made this recipe and would make it again. A mixture of olive oil, chicken, paprika, and a handful of other ingredients are all it takes to make this recipe so flavorful. It is brought to you by Foodista. Overall, this recipe earns a <b>good spoonacular score of 74%</b>. <a href=\"https://spoonacular.com/recipes/skillet-roasted-lemon-chicken-with-potatoes-379094\">Skillet-Roasted Lemon Chicken with Potatoes</a>, <a href=\"https://spoonacular.com/recipes/skillet-roasted-whole-chicken-with-lemon-and-potatoes-611209\">Skillet-Roasted Whole Chicken with Lemon and Potatoes</a>, and <a href=\"https://spoonacular.com/recipes/skillet-chicken-with-roasted-potatoes-and-carrots-707724\">Skillet Chicken with Roasted Potatoes and Carrots</a> are very similar to this recipe.",
+    "cuisines": [],
+    "dishTypes": ["lunch", "main course", "main dish", "dinner"],
+    "diets": ["gluten free", "dairy free", "fodmap friendly", "whole 30"],
+    "occasions": [],
+    "winePairing": {},
+    "instructions": "Adjust oven rack to lower-middle position and preheat oven to 400 degrees f. In a small bowl combine 2 T. olive oil, thyme, smoked paprika, 1 t. salt and 1/2 t. pepper. Carefully run your fingers under the skin covering the chicken breast, separating the skin from the meat. Rub the oil mixture all over the chicken, spooning some under the skin covering the breast. Tie the legs together with butchers twine and tuck the wings behind the back.\nToss the sliced potatoes with the remaining tablespoon of oil, 3/4 t. salt and 1/2 t. pepper. Arrange the potatoes in a 12-inch nonstick, oven-safe skillet (see note above). Place the skillet over medium heat and cook, without flipping or stirring until the potatoes are golden-brown on the bottoms, about 7-9 minutes. Then place the prepared chicken, breast-side up on top of the potatoes. Transfer the skillet to the oven and roast until a thermometer inserted in several places has reached 165 degrees (about 1-1 1/4 hours). Transfer the chicken to a serving platter and cover loosely with foil, let rest for 20 minutes.\nMeanwhile, cover the skillet with the potatoes, add back to the oven and roast for an additional 20 minutes, until the potatoes are very tender. Carve the chicken and serve along side the roasted potatoes (and prepared to be wowed!).",
+    "analyzedInstructions": [
+      {
+        "name": "",
+        "steps": [
+          {
+            "number": 1,
+            "step": "Adjust oven rack to lower-middle position and preheat oven to 400 degrees f. In a small bowl combine 2 T. olive oil, thyme, smoked paprika, 1 t. salt and 1/2 t. pepper. Carefully run your fingers under the skin covering the chicken breast, separating the skin from the meat. Rub the oil mixture all over the chicken, spooning some under the skin covering the breast. Tie the legs together with butchers twine and tuck the wings behind the back.",
+            "ingredients": [
+              {
+                "id": 5062,
+                "name": "chicken breast",
+                "localizedName": "chicken breast",
+                "image": "chicken-breasts.png"
+              },
+              {
+                "id": 1012028,
+                "name": "smoked paprika",
+                "localizedName": "smoked paprika",
+                "image": "paprika.jpg"
+              },
+              {
+                "id": 4053,
+                "name": "olive oil",
+                "localizedName": "olive oil",
+                "image": "olive-oil.jpg"
+              },
+              {
+                "id": 5006,
+                "name": "whole chicken",
+                "localizedName": "whole chicken",
+                "image": "whole-chicken.jpg"
+              },
+              {
+                "id": 1002030,
+                "name": "pepper",
+                "localizedName": "pepper",
+                "image": "pepper.jpg"
+              },
+              {
+                "id": 2049,
+                "name": "thyme",
+                "localizedName": "thyme",
+                "image": "thyme.jpg"
+              },
+              {
+                "id": 5100,
+                "name": "chicken wings",
+                "localizedName": "chicken wings",
+                "image": "chicken-wings.png"
+              },
+              {
+                "id": 1065062,
+                "name": "meat",
+                "localizedName": "meat",
+                "image": "whole-chicken.jpg"
+              },
+              {
+                "id": 2047,
+                "name": "salt",
+                "localizedName": "salt",
+                "image": "salt.jpg"
+              },
+              {
+                "id": 4582,
+                "name": "cooking oil",
+                "localizedName": "cooking oil",
+                "image": "vegetable-oil.jpg"
+              },
+              {
+                "id": 1012034,
+                "name": "dry seasoning rub",
+                "localizedName": "dry seasoning rub",
+                "image": "seasoning.png"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404733,
+                "name": "kitchen twine",
+                "localizedName": "kitchen twine",
+                "image": "kitchen-string.jpg"
+              },
+              {
+                "id": 404783,
+                "name": "bowl",
+                "localizedName": "bowl",
+                "image": "bowl.jpg"
+              },
+              {
+                "id": 404784,
+                "name": "oven",
+                "localizedName": "oven",
+                "image": "oven.jpg",
+                "temperature": {
+                  "number": 400.0,
+                  "unit": "Fahrenheit"
+                }
+              }
+            ]
+          },
+          {
+            "number": 2,
+            "step": "Toss the sliced potatoes with the remaining tablespoon of oil, 3/4 t. salt and 1/2 t. pepper. Arrange the potatoes in a 12-inch nonstick, oven-safe skillet (see note above).",
+            "ingredients": [
+              {
+                "id": 11352,
+                "name": "potato",
+                "localizedName": "potato",
+                "image": "potatoes-yukon-gold.png"
+              },
+              {
+                "id": 1002030,
+                "name": "pepper",
+                "localizedName": "pepper",
+                "image": "pepper.jpg"
+              },
+              {
+                "id": 2047,
+                "name": "salt",
+                "localizedName": "salt",
+                "image": "salt.jpg"
+              },
+              {
+                "id": 4582,
+                "name": "cooking oil",
+                "localizedName": "cooking oil",
+                "image": "vegetable-oil.jpg"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404645,
+                "name": "frying pan",
+                "localizedName": "frying pan",
+                "image": "pan.png"
+              },
+              {
+                "id": 404784,
+                "name": "oven",
+                "localizedName": "oven",
+                "image": "oven.jpg"
+              }
+            ]
+          },
+          {
+            "number": 3,
+            "step": "Place the skillet over medium heat and cook, without flipping or stirring until the potatoes are golden-brown on the bottoms, about 7-9 minutes. Then place the prepared chicken, breast-side up on top of the potatoes.",
+            "ingredients": [
+              {
+                "id": 11352,
+                "name": "potato",
+                "localizedName": "potato",
+                "image": "potatoes-yukon-gold.png"
+              },
+              {
+                "id": 5006,
+                "name": "whole chicken",
+                "localizedName": "whole chicken",
+                "image": "whole-chicken.jpg"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404645,
+                "name": "frying pan",
+                "localizedName": "frying pan",
+                "image": "pan.png"
+              }
+            ],
+            "length": {
+              "number": 9,
+              "unit": "minutes"
+            }
+          },
+          {
+            "number": 4,
+            "step": "Transfer the skillet to the oven and roast until a thermometer inserted in several places has reached 165 degrees (about 1-1 1/4 hours).",
+            "ingredients": [],
+            "equipment": [
+              {
+                "id": 404789,
+                "name": "kitchen thermometer",
+                "localizedName": "kitchen thermometer",
+                "image": "food-thermometer.jpg"
+              },
+              {
+                "id": 404645,
+                "name": "frying pan",
+                "localizedName": "frying pan",
+                "image": "pan.png"
+              },
+              {
+                "id": 404784,
+                "name": "oven",
+                "localizedName": "oven",
+                "image": "oven.jpg"
+              }
+            ],
+            "length": {
+              "number": 240,
+              "unit": "minutes"
+            }
+          },
+          {
+            "number": 5,
+            "step": "Transfer the chicken to a serving platter and cover loosely with foil, let rest for 20 minutes.",
+            "ingredients": [
+              {
+                "id": 5006,
+                "name": "whole chicken",
+                "localizedName": "whole chicken",
+                "image": "whole-chicken.jpg"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404765,
+                "name": "aluminum foil",
+                "localizedName": "aluminum foil",
+                "image": "aluminum-foil.png"
+              }
+            ],
+            "length": {
+              "number": 20,
+              "unit": "minutes"
+            }
+          },
+          {
+            "number": 6,
+            "step": "Meanwhile, cover the skillet with the potatoes, add back to the oven and roast for an additional 20 minutes, until the potatoes are very tender. Carve the chicken and serve along side the roasted potatoes (and prepared to be wowed!).",
+            "ingredients": [
+              {
+                "id": 0,
+                "name": "roast potato",
+                "localizedName": "roast potato",
+                "image": "potatoes-yukon-gold.png"
+              },
+              {
+                "id": 11352,
+                "name": "potato",
+                "localizedName": "potato",
+                "image": "potatoes-yukon-gold.png"
+              },
+              {
+                "id": 5006,
+                "name": "whole chicken",
+                "localizedName": "whole chicken",
+                "image": "whole-chicken.jpg"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404645,
+                "name": "frying pan",
+                "localizedName": "frying pan",
+                "image": "pan.png"
+              },
+              {
+                "id": 404784,
+                "name": "oven",
+                "localizedName": "oven",
+                "image": "oven.jpg"
+              }
+            ],
+            "length": {
+              "number": 20,
+              "unit": "minutes"
+            }
+          }
+        ]
+      }
+    ],
+    "sourceName": null,
+    "creditsText": null,
+    "originalId": null,
+    "spoonacularSourceUrl": "https://spoonacular.com/skillet-roasted-chicken-potatoes-660220"
+  }
+]

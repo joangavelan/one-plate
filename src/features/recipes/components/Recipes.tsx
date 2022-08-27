@@ -1,9 +1,20 @@
-import React from 'react'
+import { GetRecipes } from './GetRecipes'
+import { Heading } from './Heading'
+import { List } from './List'
+
+const recipes = ['item']
 
 export const Recipes = () => {
   return (
-    <div className='green-box col-span-5 grid place-items-center lg:col-span-2'>
-      <h2 className='text-2xl font-bold text-slate-800'>Recipes</h2>
+    <div className='green-box relative col-span-5 flex flex-col gap-5 lg:col-span-2'>
+      {recipes?.length > 0 ? (
+        <>
+          <Heading />
+          <List />
+        </>
+      ) : (
+        <GetRecipes />
+      )}
     </div>
   )
 }
