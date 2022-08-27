@@ -1,10 +1,6 @@
-type BaseProps = {
-  name: string
-  amount: number
-  unit: string
-}
+import { BaseEntity } from '@/types'
 
-type Nutrient = BaseProps
+type Nutrient = BaseEntity
 
 export type Ingredient = {
   id: number
@@ -14,7 +10,7 @@ export type Ingredient = {
     amount: number
     unit: string
   }
-} & BaseProps
+} & BaseEntity
 
 export type IngredientMeta = {
   id: number
