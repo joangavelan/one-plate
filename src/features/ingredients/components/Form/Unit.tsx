@@ -1,17 +1,26 @@
-import { Fragment, useState } from 'react'
+import { Fragment } from 'react'
 import { Listbox, Transition } from '@headlessui/react'
 import { BsFillCaretDownFill } from 'react-icons/bs'
+import { useController, UseControllerProps } from 'react-hook-form'
+import { FormData } from './Form'
 
-const units = ['g', 'tablespoon', 'fullspoon', 'mg', 'kg', 'pounds']
+type UnitProps = {
+  units: string[]
+}
 
-export const Unit = () => {
-  const [selected, setSelected] = useState(units[0])
+export const Unit = ({
+  units,
+  ...props
+}: UnitProps & UseControllerProps<FormData>) => {
+  const {
+    field: { value = 'unit', onChange }
+  } = useController(props)
 
   return (
-    <Listbox value={selected} onChange={setSelected}>
+    <Listbox value={value} onChange={onChange} disabled={!units.length}>
       <div className='relative'>
-        <Listbox.Button className='inputStyles flex items-center justify-between gap-2 bg-white'>
-          <span>{selected}</span>
+        <Listbox.Button className='inputStyles flex h-full items-center justify-between gap-2 bg-white'>
+          <span>{value}</span>
           <BsFillCaretDownFill className='translate-y-[1.2px]' />
         </Listbox.Button>
         <Transition
