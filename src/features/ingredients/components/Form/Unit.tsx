@@ -2,23 +2,16 @@ import { Fragment, useState } from 'react'
 import { Listbox, Transition } from '@headlessui/react'
 import { BsFillCaretDownFill } from 'react-icons/bs'
 
-const unit = [
-  { name: 'g' },
-  { name: 'tablespoon' },
-  { name: 'fullspoon' },
-  { name: 'mg' },
-  { name: 'kg' },
-  { name: 'pounds' }
-]
+const units = ['g', 'tablespoon', 'fullspoon', 'mg', 'kg', 'pounds']
 
 export const Unit = () => {
-  const [selected, setSelected] = useState(unit[0])
+  const [selected, setSelected] = useState(units[0])
 
   return (
     <Listbox value={selected} onChange={setSelected}>
       <div className='relative'>
         <Listbox.Button className='inputStyles flex items-center justify-between gap-2 bg-white'>
-          <span>{selected?.name}</span>
+          <span>{selected}</span>
           <BsFillCaretDownFill className='translate-y-[1.2px]' />
         </Listbox.Button>
         <Transition
@@ -28,7 +21,7 @@ export const Unit = () => {
           leaveTo='opacity-0'
         >
           <Listbox.Options className='absolute z-10 mt-2 max-h-60 w-full min-w-min overflow-auto rounded-md bg-white py-1 ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-sm'>
-            {unit.map((unit, unitIdx) => (
+            {units.map((unit, unitIdx) => (
               <Listbox.Option
                 key={unitIdx}
                 className={({ active }) =>
@@ -45,7 +38,7 @@ export const Unit = () => {
                         selected ? 'font-medium' : 'font-normal'
                       }`}
                     >
-                      {unit.name}
+                      {unit}
                     </span>
                   </>
                 )}
