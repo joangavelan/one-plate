@@ -29,7 +29,7 @@ export const IngredientForm = () => {
         selected={selectedIngredient}
         setSelected={setSelectedIngredient}
       />
-      <Amount />
+      <Amount registration={register('amount', { valueAsNumber: true })} />
       <Unit />
       <SubmitButton />
     </form>
