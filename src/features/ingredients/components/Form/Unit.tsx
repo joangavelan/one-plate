@@ -1,4 +1,4 @@
-import { Fragment } from 'react'
+import * as React from 'react'
 import { Listbox, Transition } from '@headlessui/react'
 import { BsFillCaretDownFill } from 'react-icons/bs'
 import { useController, UseControllerProps } from 'react-hook-form'
@@ -13,18 +13,24 @@ export const Unit = ({
   ...props
 }: UnitProps & UseControllerProps<FormData>) => {
   const {
-    field: { value = 'unit', onChange }
+    field: { value, onChange }
   } = useController(props)
 
   return (
     <Listbox value={value} onChange={onChange} disabled={!units.length}>
       <div className='relative'>
         <Listbox.Button className='inputStyles flex h-full items-center justify-between gap-2 bg-white'>
-          <span>{value}</span>
-          <BsFillCaretDownFill className='translate-y-[1.2px]' />
+          {value ? (
+            <>
+              <span>{value}</span>
+              <BsFillCaretDownFill className='translate-y-[1.2px]' />
+            </>
+          ) : (
+            <span className='text-gray-500'>units</span>
+          )}
         </Listbox.Button>
         <Transition
-          as={Fragment}
+          as={React.Fragment}
           leave='transition ease-in duration-100'
           leaveFrom='opacity-100'
           leaveTo='opacity-0'

@@ -4,6 +4,7 @@ import { Unit } from './Unit'
 import { SubmitButton } from './SubmitButton'
 import { Amount } from './Amount'
 import { useForm, SubmitHandler } from 'react-hook-form'
+import { getPossibleUnits } from '../../api/getPossibleUnits'
 
 export type FormData = {
   amount: number
@@ -16,11 +17,12 @@ export type SelectedIngredient = {
 }
 
 export const IngredientForm = () => {
-  const { register, handleSubmit, watch, control } = useForm<FormData>()
+  const { register, handleSubmit, watch, control, setValue } =
+    useForm<FormData>()
 
   const [selectedIngredient, setSelectedIngredient] =
     React.useState<SelectedIngredient | null>(null)
-  const [possibleUnits, setPossibleUnits] = React.useState(['g'])
+  const [possibleUnits, setPossibleUnits] = React.useState<string[]>([])
 
   const onSubmit: SubmitHandler<FormData> = ({ amount, unit }) => {
     const ingredient = {
@@ -31,6 +33,16 @@ export const IngredientForm = () => {
     }
     console.log(ingredient)
   }
+
+  React.useEffect(() => {
+    if (selectedIngredient) {
+      setValue('unit', '')
+      getPossibleUnits(selectedIngredient.id).then((units) => {
+        setPossibleUnits(units || [])
+        setValue('unit', units[0] || '')
+      })
+    }
+  }, [selectedIngredient, setValue])
 
   const amount = watch('amount')
   const unit = watch('unit')
