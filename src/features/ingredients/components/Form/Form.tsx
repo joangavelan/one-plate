@@ -5,6 +5,8 @@ import { SubmitButton } from './SubmitButton'
 import { Amount } from './Amount'
 import { useForm, SubmitHandler } from 'react-hook-form'
 import { getPossibleUnits } from '../../api/getPossibleUnits'
+import { getFullIngredient } from '../../api/getFullIngredient'
+import useIngredients from '@/stores/useIngredients'
 
 export type FormData = {
   amount: number
@@ -24,21 +26,22 @@ export const IngredientForm = () => {
     React.useState<SelectedIngredient | null>(null)
   const [possibleUnits, setPossibleUnits] = React.useState<string[]>([])
 
-  const onSubmit: SubmitHandler<FormData> = ({ amount, unit }) => {
-    const ingredient = {
-      id: selectedIngredient?.id,
-      name: selectedIngredient?.name,
+  const onSubmit: SubmitHandler<FormData> = async ({ amount, unit }) => {
+    const ingredientMeta = {
+      id: selectedIngredient!.id,
       amount,
       unit
     }
-    console.log(ingredient)
+    const ingredient = await getFullIngredient(ingredientMeta)
+    useIngredients.getState().addIngredient(ingredient)
   }
 
   React.useEffect(() => {
     if (selectedIngredient) {
+      setPossibleUnits([])
       setValue('unit', '')
       getPossibleUnits(selectedIngredient.id).then((units) => {
-        setPossibleUnits(units || [])
+        setPossibleUnits(units)
         setValue('unit', units[0] || '')
       })
     }

@@ -3,15 +3,19 @@ import { Ingredient } from '../../types'
 import Image from 'next/image'
 import { TbGripVertical } from 'react-icons/tb'
 import { FiTrash2 } from 'react-icons/fi'
+import useIngredients from '@/stores/useIngredients'
 
 type IngredientProps = {
   ingredient: Ingredient
 }
 
 const Ingredient = ({ ingredient }: IngredientProps) => {
-  const { name, amount, unit, image, nutrients, calories } = ingredient
+  const { id, name, amount, unit, image, nutrients } = ingredient
+  const calories = nutrients.find((nutrient) => nutrient.name === 'Calories')
+  const removeIngredient = useIngredients((state) => state.removeIngredient)
+
   return (
-    <div className='flex overflow-hidden rounded-lg bg-white shadow-sm'>
+    <div className='flex rounded-lg bg-white shadow-sm'>
       {/* drag handler */}
       <div className='grid w-[2.5rem] cursor-pointer place-items-center sm:w-[3.3rem] lg:w-[4.5rem]'>
         <TbGripVertical className='text-xl text-gray-700 sm:text-2xl lg:text-3xl' />
@@ -36,27 +40,33 @@ const Ingredient = ({ ingredient }: IngredientProps) => {
           </h3>
           {/* nutrients */}
           <div className='flex flex-col justify-between'>
-            {nutrients.map(({ name, amount, unit }) => (
-              <div
-                key={name}
-                className='text-xs leading-[1.125rem] sm:text-sm sm:leading-normal lg:text-base'
-              >
-                <h4 className='mr-1 inline-block'>{name}:</h4>
-                <span className='font-medium'>
-                  {amount} {unit}
-                </span>
-              </div>
-            ))}
+            {nutrients
+              .filter((nutrient) => nutrient.name !== 'Calories')
+              .map(({ name, amount, unit }) => (
+                <div
+                  key={name}
+                  className='text-xs leading-[1.125rem] sm:text-sm sm:leading-normal lg:text-base'
+                >
+                  <h4 className='mr-1 inline-block'>{name}:</h4>
+                  <span className='font-medium'>
+                    {amount} {unit}
+                  </span>
+                </div>
+              ))}
           </div>
         </div>
 
-        {/* calories and serving */}
         <div className='ml-auto flex flex-col items-end justify-between'>
-          <div className='badge rounded-l-lg rounded-t-none bg-yellow-200'>
-            <span>{Math.round(calories.amount)}</span>
-            <span>{calories.unit}</span>
+          {/* calories */}
+          <div className='badge rounded-bl-lg rounded-tr-lg bg-yellow-200'>
+            <span>{Math.round(calories!.amount)}</span>
+            <span>{calories!.unit}</span>
           </div>
-          <div className='cursor-pointer py-2.5 px-3.5 text-base transition-colors duration-300 hover:text-red-700 sm:text-lg lg:text-xl'>
+          {/* remove icon */}
+          <div
+            onClick={() => removeIngredient(id)}
+            className='cursor-pointer py-2.5 px-3.5 text-base transition-colors duration-300 hover:text-red-700 sm:text-lg lg:text-xl'
+          >
             <FiTrash2 />
           </div>
         </div>

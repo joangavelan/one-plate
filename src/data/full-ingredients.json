@@ -1,0 +1,205 @@
+[
+  {
+    "id": 19912,
+    "image": "https://spoonacular.com/cdn/ingredients_100x100/agave.png",
+    "name": "agave syrup",
+    "amount": 1,
+    "unit": "tablespoon",
+    "nutrients": [
+      {
+        "name": "Carbohydrates",
+        "amount": 16.04,
+        "unit": "g"
+      },
+      {
+        "name": "Calories",
+        "amount": 65.1,
+        "unit": "kcal"
+      },
+      {
+        "name": "Protein",
+        "amount": 0.02,
+        "unit": "g"
+      },
+      {
+        "name": "Fat",
+        "amount": 0.09,
+        "unit": "g"
+      }
+    ]
+  },
+  {
+    "id": 12061,
+    "image": "https://spoonacular.com/cdn/ingredients_100x100/almonds.jpg",
+    "name": "almond",
+    "amount": 1,
+    "unit": "handful",
+    "nutrients": [
+      {
+        "name": "Carbohydrates",
+        "amount": 6.48,
+        "unit": "g"
+      },
+      {
+        "name": "Calories",
+        "amount": 173.7,
+        "unit": "kcal"
+      },
+      {
+        "name": "Protein",
+        "amount": 6.36,
+        "unit": "g"
+      },
+      {
+        "name": "Fat",
+        "amount": 14.97,
+        "unit": "g"
+      }
+    ]
+  },
+  {
+    "id": 10014534,
+    "image": "https://spoonacular.com/cdn/ingredients_100x100/temporary-orange-liqueur.jpg",
+    "name": "amaretto",
+    "amount": 1,
+    "unit": "gram",
+    "nutrients": [
+      {
+        "name": "Carbohydrates",
+        "amount": 0.32,
+        "unit": "g"
+      },
+      {
+        "name": "Calories",
+        "amount": 3.08,
+        "unit": "kcal"
+      },
+      {
+        "name": "Protein",
+        "amount": 0,
+        "unit": "g"
+      },
+      {
+        "name": "Fat",
+        "amount": 0,
+        "unit": "g"
+      }
+    ]
+  },
+  {
+    "id": 93607,
+    "image": "https://spoonacular.com/cdn/ingredients_100x100/almond-milk.png",
+    "name": "almond drink",
+    "amount": 1,
+    "unit": "cup",
+    "nutrients": [
+      {
+        "name": "Carbohydrates",
+        "amount": 1,
+        "unit": "g"
+      },
+      {
+        "name": "Calories",
+        "amount": 35,
+        "unit": "kcal"
+      },
+      {
+        "name": "Protein",
+        "amount": 1.25,
+        "unit": "g"
+      },
+      {
+        "name": "Fat",
+        "amount": 3,
+        "unit": "g"
+      }
+    ]
+  },
+  {
+    "id": 15001,
+    "image": "https://spoonacular.com/cdn/ingredients_100x100/anchovies.jpg",
+    "name": "boquerones",
+    "amount": 1,
+    "unit": "can",
+    "nutrients": [
+      {
+        "name": "Carbohydrates",
+        "amount": 0,
+        "unit": "g"
+      },
+      {
+        "name": "Calories",
+        "amount": 72.05,
+        "unit": "kcal"
+      },
+      {
+        "name": "Protein",
+        "amount": 11.19,
+        "unit": "g"
+      },
+      {
+        "name": "Fat",
+        "amount": 2.66,
+        "unit": "g"
+      }
+    ]
+  },
+  {
+    "id": 1002050,
+    "image": "https://spoonacular.com/cdn/ingredients_100x100/extract.png",
+    "name": "pure almond extract",
+    "amount": 1,
+    "unit": "drop",
+    "nutrients": [
+      {
+        "name": "Carbohydrates",
+        "amount": 0.01,
+        "unit": "g"
+      },
+      {
+        "name": "Calories",
+        "amount": 0.29,
+        "unit": "kcal"
+      },
+      {
+        "name": "Protein",
+        "amount": 0,
+        "unit": "g"
+      },
+      {
+        "name": "Fat",
+        "amount": 0,
+        "unit": "g"
+      }
+    ]
+  },
+  {
+    "id": 11482,
+    "image": "https://spoonacular.com/cdn/ingredients_100x100/acorn-squash.jpg",
+    "name": "acorn squash",
+    "amount": 1,
+    "unit": "squash",
+    "nutrients": [
+      {
+        "name": "Carbohydrates",
+        "amount": 44.91,
+        "unit": "g"
+      },
+      {
+        "name": "Calories",
+        "amount": 172.4,
+        "unit": "kcal"
+      },
+      {
+        "name": "Protein",
+        "amount": 3.45,
+        "unit": "g"
+      },
+      {
+        "name": "Fat",
+        "amount": 0.43,
+        "unit": "g"
+      }
+    ]
+  }
+]
