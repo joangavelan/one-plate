@@ -1,7 +1,7 @@
 import type {
   IngredientStatus,
   RecipeIngredient
-} from '@/features/recipes/components/Ingredient'
+} from '@/features/recipes/components/RecipeIngredient'
 
 export const composeRecipeIngredients = (
   usedIngredients: any[],

@@ -12,7 +12,7 @@ export type RecipeIngredient = {
 
 type RecipeIngredientProps = Omit<RecipeIngredient, 'id'>
 
-export const Ingredient = ({
+export const RecipeIngredient = ({
   status,
   name,
   amount,

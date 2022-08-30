@@ -1,6 +1,6 @@
 import { GetRecipes } from './GetRecipes'
 import { Heading } from './Heading'
-import { List } from './List'
+import { RecipeList } from './RecipeList'
 
 const recipes = ['item']
 
@@ -10,7 +10,7 @@ export const Recipes = () => {
       {recipes?.length > 0 ? (
         <>
           <Heading />
-          <List />
+          <RecipeList />
         </>
       ) : (
         <GetRecipes />

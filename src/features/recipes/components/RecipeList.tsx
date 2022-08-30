@@ -5,10 +5,10 @@ import { IoMdTime } from 'react-icons/io'
 import { FcInfo } from 'react-icons/fc'
 import { Popover, Transition } from '@headlessui/react'
 import { Fragment } from 'react'
-import { Ingredient } from './Ingredient'
+import { RecipeIngredient } from './RecipeIngredient'
 import { composeRecipeIngredients } from '@/adapters/composeRecipeIngredients'
 
-export const List = () => {
+export const RecipeList = () => {
   return (
     <div className='flex flex-1 flex-col gap-5 overflow-y-auto'>
       {recipes.map(
@@ -59,7 +59,7 @@ export const List = () => {
                         missedIngredients,
                         unusedIngredients
                       ).map(({ id, ...props }) => (
-                        <Ingredient key={id} {...props} />
+                        <RecipeIngredient key={id} {...props} />
                       ))}
                     </Popover.Panel>
                   </Transition>

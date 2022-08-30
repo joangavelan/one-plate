@@ -8,7 +8,7 @@ type IngredientSearchProps = {
   setSelected: React.Dispatch<React.SetStateAction<SelectedIngredient | null>>
 }
 
-export const IngredientSearch = ({
+export const IngredientSearchInput = ({
   selected,
   setSelected
 }: IngredientSearchProps) => {
