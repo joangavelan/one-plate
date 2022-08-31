@@ -1,6 +1,6 @@
 [
   {
-    "id": 19912,
+    "id": "19912",
     "image": "https://spoonacular.com/cdn/ingredients_100x100/agave.png",
     "name": "agave syrup",
     "amount": 1,
@@ -12,11 +12,6 @@
         "unit": "g"
       },
       {
-        "name": "Calories",
-        "amount": 65.1,
-        "unit": "kcal"
-      },
-      {
         "name": "Protein",
         "amount": 0.02,
         "unit": "g"
@@ -26,10 +21,14 @@
         "amount": 0.09,
         "unit": "g"
       }
-    ]
+    ],
+    "calories": {
+      "amount": 65.1,
+      "unit": "kcal"
+    }
   },
   {
-    "id": 12061,
+    "id": "12061",
     "image": "https://spoonacular.com/cdn/ingredients_100x100/almonds.jpg",
     "name": "almond",
     "amount": 1,
@@ -41,11 +40,6 @@
         "unit": "g"
       },
       {
-        "name": "Calories",
-        "amount": 173.7,
-        "unit": "kcal"
-      },
-      {
         "name": "Protein",
         "amount": 6.36,
         "unit": "g"
@@ -55,10 +49,14 @@
         "amount": 14.97,
         "unit": "g"
       }
-    ]
+    ],
+    "calories": {
+      "amount": 173.7,
+      "unit": "kcal"
+    }
   },
   {
-    "id": 10014534,
+    "id": "10014534",
     "image": "https://spoonacular.com/cdn/ingredients_100x100/temporary-orange-liqueur.jpg",
     "name": "amaretto",
     "amount": 1,
@@ -70,11 +68,6 @@
         "unit": "g"
       },
       {
-        "name": "Calories",
-        "amount": 3.08,
-        "unit": "kcal"
-      },
-      {
         "name": "Protein",
         "amount": 0,
         "unit": "g"
@@ -84,10 +77,14 @@
         "amount": 0,
         "unit": "g"
       }
-    ]
+    ],
+    "calories": {
+      "amount": 3.08,
+      "unit": "kcal"
+    }
   },
   {
-    "id": 93607,
+    "id": "93607",
     "image": "https://spoonacular.com/cdn/ingredients_100x100/almond-milk.png",
     "name": "almond drink",
     "amount": 1,
@@ -99,11 +96,6 @@
         "unit": "g"
       },
       {
-        "name": "Calories",
-        "amount": 35,
-        "unit": "kcal"
-      },
-      {
         "name": "Protein",
         "amount": 1.25,
         "unit": "g"
@@ -113,10 +105,14 @@
         "amount": 3,
         "unit": "g"
       }
-    ]
+    ],
+    "calories": {
+      "amount": 35,
+      "unit": "kcal"
+    }
   },
   {
-    "id": 15001,
+    "id": "15001",
     "image": "https://spoonacular.com/cdn/ingredients_100x100/anchovies.jpg",
     "name": "boquerones",
     "amount": 1,
@@ -128,11 +124,6 @@
         "unit": "g"
       },
       {
-        "name": "Calories",
-        "amount": 72.05,
-        "unit": "kcal"
-      },
-      {
         "name": "Protein",
         "amount": 11.19,
         "unit": "g"
@@ -142,10 +133,14 @@
         "amount": 2.66,
         "unit": "g"
       }
-    ]
+    ],
+    "calories": {
+      "amount": 72.05,
+      "unit": "kcal"
+    }
   },
   {
-    "id": 1002050,
+    "id": "1002050",
     "image": "https://spoonacular.com/cdn/ingredients_100x100/extract.png",
     "name": "pure almond extract",
     "amount": 1,
@@ -157,11 +152,6 @@
         "unit": "g"
       },
       {
-        "name": "Calories",
-        "amount": 0.29,
-        "unit": "kcal"
-      },
-      {
         "name": "Protein",
         "amount": 0,
         "unit": "g"
@@ -171,10 +161,14 @@
         "amount": 0,
         "unit": "g"
       }
-    ]
+    ],
+    "calories": {
+      "amount": 0.29,
+      "unit": "kcal"
+    }
   },
   {
-    "id": 11482,
+    "id": "11482",
     "image": "https://spoonacular.com/cdn/ingredients_100x100/acorn-squash.jpg",
     "name": "acorn squash",
     "amount": 1,
@@ -186,11 +180,6 @@
         "unit": "g"
       },
       {
-        "name": "Calories",
-        "amount": 172.4,
-        "unit": "kcal"
-      },
-      {
         "name": "Protein",
         "amount": 3.45,
         "unit": "g"
@@ -200,6 +189,10 @@
         "amount": 0.43,
         "unit": "g"
       }
-    ]
+    ],
+    "calories": {
+      "amount": 172.4,
+      "unit": "kcal"
+    }
   }
 ]

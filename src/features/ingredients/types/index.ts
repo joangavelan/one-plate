@@ -6,6 +6,10 @@ export type Ingredient = {
   id: string
   image: string
   nutrients: Nutrient[]
+  calories: {
+    amount: number
+    unit: string
+  }
 } & BaseEntity
 
 export type IngredientMeta = {

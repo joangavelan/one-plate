@@ -19,12 +19,20 @@ export const adaptApiIngredient = ({
       unit
     }))
 
+  const [calories] = nutrients
+    .splice(
+      nutrients.findIndex((nutrient: any) => nutrient.name === 'Calories'),
+      1
+    )
+    .map(({ amount, unit }: any) => ({ amount, unit }))
+
   return {
     id: nanoid(),
     image: `https://spoonacular.com/cdn/ingredients_100x100/${image}`,
     name,
     amount,
     unit: unitLong,
-    nutrients
+    nutrients,
+    calories
   }
 }

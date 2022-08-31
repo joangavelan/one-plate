@@ -12,8 +12,7 @@ type IngredientProps = {
 }
 
 const Ingredient = ({ ingredient, provided }: IngredientProps) => {
-  const { id, name, amount, unit, image, nutrients } = ingredient
-  const calories = nutrients.find((nutrient) => nutrient.name === 'Calories')
+  const { id, name, amount, unit, image, nutrients, calories } = ingredient
   const removeIngredient = useIngredients((state) => state.removeIngredient)
 
   return (
@@ -49,27 +48,25 @@ const Ingredient = ({ ingredient, provided }: IngredientProps) => {
           </h3>
           {/* nutrients */}
           <div className='flex flex-col justify-between'>
-            {nutrients
-              .filter((nutrient) => nutrient.name !== 'Calories')
-              .map(({ name, amount, unit }) => (
-                <div
-                  key={name}
-                  className='text-xs leading-[1.125rem] sm:text-sm sm:leading-normal lg:text-base'
-                >
-                  <h4 className='mr-1 inline-block'>{name}:</h4>
-                  <span className='font-medium'>
-                    {amount} {unit}
-                  </span>
-                </div>
-              ))}
+            {nutrients.map(({ name, amount, unit }) => (
+              <div
+                key={name}
+                className='text-xs leading-[1.125rem] sm:text-sm sm:leading-normal lg:text-base'
+              >
+                <h4 className='mr-1 inline-block'>{name}:</h4>
+                <span className='font-medium'>
+                  {amount} {unit}
+                </span>
+              </div>
+            ))}
           </div>
         </div>
 
         <div className='ml-auto flex flex-col items-end justify-between'>
           {/* calories */}
           <div className='badge rounded-bl-lg rounded-tr-lg bg-yellow-200'>
-            <span>{Math.round(calories!.amount)}</span>
-            <span>{calories!.unit}</span>
+            <span>{Math.round(calories.amount)}</span>
+            <span>{calories.unit}</span>
           </div>
           {/* remove ingredient icon */}
           <div
