@@ -1,4 +1,5 @@
 import { Ingredient } from '@/features/ingredients/types'
+import { reorderArray } from '@/utils/reorderArray'
 import create from 'zustand'
 
 type State = {
@@ -6,6 +7,7 @@ type State = {
   addIngredient: (ingredient: Ingredient) => void
   removeIngredient: (id: number) => void
   removeAllIngredients: () => void
+  reorderIngredients: (startindex: number, endIndex: number) => void
 }
 
 const useIngredients = create<State>((set) => ({
@@ -23,6 +25,10 @@ const useIngredients = create<State>((set) => ({
   removeAllIngredients: () =>
     set(() => ({
       ingredients: []
+    })),
+  reorderIngredients: (startIndex, endIndex) =>
+    set((state) => ({
+      ingredients: reorderArray(state.ingredients, startIndex, endIndex)
     }))
 }))
 

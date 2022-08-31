@@ -1,30 +1,39 @@
-import React from 'react'
+import * as React from 'react'
 import { Ingredient } from '../../types'
 import Image from 'next/image'
 import { TbGripVertical } from 'react-icons/tb'
 import { FiTrash2 } from 'react-icons/fi'
 import useIngredients from '@/stores/useIngredients'
+import type { DraggableProvided } from 'react-beautiful-dnd'
 
 type IngredientProps = {
   ingredient: Ingredient
+  provided: DraggableProvided
 }
 
-const Ingredient = ({ ingredient }: IngredientProps) => {
+const Ingredient = ({ ingredient, provided }: IngredientProps) => {
   const { id, name, amount, unit, image, nutrients } = ingredient
   const calories = nutrients.find((nutrient) => nutrient.name === 'Calories')
   const removeIngredient = useIngredients((state) => state.removeIngredient)
 
   return (
-    <div className='flex rounded-lg bg-white shadow-sm'>
+    <li
+      className='my-1.5 flex rounded-lg bg-white shadow-sm'
+      ref={provided.innerRef}
+      {...provided.draggableProps}
+    >
       {/* drag handler */}
-      <div className='grid w-[2.5rem] cursor-pointer place-items-center sm:w-[3.3rem] lg:w-[4.5rem]'>
+      <div
+        {...provided.dragHandleProps}
+        className='grid w-[2.5rem] place-items-center sm:w-[3.3rem] lg:w-[4.5rem]'
+      >
         <TbGripVertical className='text-xl text-gray-700 sm:text-2xl lg:text-3xl' />
       </div>
 
       {/* content */}
       <div className='flex flex-1 text-gray-700'>
         {/* image */}
-        <div className='relative h-[2rem] w-[2rem] self-center sm:h-[3rem] sm:w-[3rem] lg:h-[4rem] lg:w-[4rem]'>
+        <div className='pointer-events-none relative h-[2rem] w-[2rem] select-none self-center sm:h-[3rem] sm:w-[3rem] lg:h-[4rem] lg:w-[4rem]'>
           <Image src={image} layout='fill' alt={name} />
         </div>
 
@@ -62,7 +71,7 @@ const Ingredient = ({ ingredient }: IngredientProps) => {
             <span>{Math.round(calories!.amount)}</span>
             <span>{calories!.unit}</span>
           </div>
-          {/* remove icon */}
+          {/* remove ingredient icon */}
           <div
             onClick={() => removeIngredient(id)}
             className='cursor-pointer py-2.5 px-3.5 text-base transition-colors duration-300 hover:text-red-700 sm:text-lg lg:text-xl'
@@ -71,7 +80,7 @@ const Ingredient = ({ ingredient }: IngredientProps) => {
           </div>
         </div>
       </div>
-    </div>
+    </li>
   )
 }
 
