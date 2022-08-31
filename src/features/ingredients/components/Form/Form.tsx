@@ -19,8 +19,15 @@ export type SelectedIngredient = {
 }
 
 export const IngredientForm = () => {
-  const { register, handleSubmit, watch, control, setValue } =
-    useForm<FormData>()
+  const {
+    register,
+    handleSubmit,
+    watch,
+    control,
+    setValue,
+    reset,
+    formState: { isSubmitting }
+  } = useForm<FormData>()
 
   const [selectedIngredient, setSelectedIngredient] =
     React.useState<SelectedIngredient | null>(null)
@@ -35,6 +42,12 @@ export const IngredientForm = () => {
     const ingredient = await getFullIngredient(ingredientMeta)
     useIngredients.getState().addIngredient(ingredient)
   }
+
+  React.useEffect(() => {
+    reset()
+    setPossibleUnits([])
+    setSelectedIngredient(null)
+  }, [isSubmitting, reset])
 
   React.useEffect(() => {
     if (selectedIngredient) {
