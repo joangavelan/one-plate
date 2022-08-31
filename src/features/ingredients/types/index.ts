@@ -3,7 +3,7 @@ import { BaseEntity } from '@/types'
 type Nutrient = BaseEntity
 
 export type Ingredient = {
-  id: number
+  id: string
   image: string
   nutrients: Nutrient[]
 } & BaseEntity

@@ -1,7 +1,7 @@
 import { Ingredient } from '@/features/ingredients/types'
+import { nanoid } from 'nanoid'
 
 export const adaptApiIngredient = ({
-  id,
   name,
   image,
   amount,
@@ -20,7 +20,7 @@ export const adaptApiIngredient = ({
     }))
 
   return {
-    id,
+    id: nanoid(),
     image: `https://spoonacular.com/cdn/ingredients_100x100/${image}`,
     name,
     amount,

@@ -41,7 +41,7 @@ export const IngredientList = () => {
                   {ingredients.map((ingredient, index) => (
                     <Draggable
                       key={ingredient.id}
-                      draggableId={ingredient.id.toString()}
+                      draggableId={ingredient.id}
                       index={index}
                     >
                       {(provided) => (

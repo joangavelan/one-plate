@@ -5,7 +5,7 @@ import create from 'zustand'
 type State = {
   ingredients: Ingredient[]
   addIngredient: (ingredient: Ingredient) => void
-  removeIngredient: (id: number) => void
+  removeIngredient: (id: string) => void
   removeAllIngredients: () => void
   reorderIngredients: (startindex: number, endIndex: number) => void
 }
