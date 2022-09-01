@@ -54,7 +54,7 @@ export const IngredientForm = () => {
       setPossibleUnits([])
       setValue('unit', '')
       getPossibleUnits(selectedIngredient.id).then((units) => {
-        setPossibleUnits(units)
+        setPossibleUnits(units || [])
         setValue('unit', units[0] || '')
       })
     }
