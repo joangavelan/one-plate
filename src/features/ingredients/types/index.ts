@@ -1,6 +1,10 @@
 import { BaseEntity } from '@/types'
 
-type Nutrient = BaseEntity
+export type Nutrient = {
+  name: string
+  amount: number
+  unit: string
+}
 
 export type Ingredient = {
   id: string

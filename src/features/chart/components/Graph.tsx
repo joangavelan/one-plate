@@ -1,4 +1,4 @@
-import { Doughnut } from 'react-chartjs-2'
+import { Pie } from 'react-chartjs-2'
 import type { ChartOptions, ChartData } from 'chart.js'
 
 const options: ChartOptions = {
@@ -7,28 +7,31 @@ const options: ChartOptions = {
       display: false
     },
     tooltip: {
-      enabled: false
+      callbacks: {
+        label: ({ label, formattedValue }) => ` ${label}: ${formattedValue} g`
+      }
     },
     datalabels: {
+      display: 'auto',
       font: {
         size: 15,
         weight: 'bold'
       },
-      color: '#4b5563',
-      formatter: (value) => value + 'g'
+      color: '#3f3f46',
+      formatter: (value) => (value ? value + 'g' : null)
     }
   },
   maintainAspectRatio: false
 }
 
 type GraphProps = {
-  data: ChartData<'doughnut'>
+  data: ChartData<'pie'>
 }
 
 export const Graph = ({ data }: GraphProps) => {
   return (
     <div className='min-w-0'>
-      <Doughnut data={data} options={options} />
+      <Pie data={data} options={options} />
     </div>
   )
 }
