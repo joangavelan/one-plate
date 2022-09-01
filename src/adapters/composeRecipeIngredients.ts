@@ -1,7 +1,4 @@
-import type {
-  IngredientStatus,
-  RecipeIngredient
-} from '@/features/recipes/components/RecipeIngredient'
+import { IngredientStatus, RecipeIngredient } from '@/features/recipes/types'
 
 export const composeRecipeIngredients = (
   usedIngredients: any[],

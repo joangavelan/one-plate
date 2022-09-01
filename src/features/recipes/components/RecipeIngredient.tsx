@@ -1,16 +1,9 @@
 import React from 'react'
 import { AiFillCheckCircle, AiFillCloseCircle } from 'react-icons/ai'
 import { BiBlock } from 'react-icons/bi'
-import { BaseEntity } from '@/types'
+import { RecipeIngredient as TRecipeIngredient } from '../types'
 
-export type IngredientStatus = 'used' | 'unused' | 'missed'
-
-export type RecipeIngredient = {
-  id: number
-  status: IngredientStatus
-} & BaseEntity
-
-type RecipeIngredientProps = Omit<RecipeIngredient, 'id'>
+type RecipeIngredientProps = Omit<TRecipeIngredient, 'id'>
 
 export const RecipeIngredient = ({
   status,
