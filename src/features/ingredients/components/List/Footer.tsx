@@ -5,6 +5,7 @@ type IngredientsFooterProps = {
 }
 
 export const Footer = ({ ingredientsLength }: IngredientsFooterProps) => {
+  const ingredients = useIngredients((state) => state.ingredients)
   const removeAllIngredients = useIngredients(
     (state) => state.removeAllIngredients
   )
@@ -15,8 +16,9 @@ export const Footer = ({ ingredientsLength }: IngredientsFooterProps) => {
         {ingredientsLength} ingredients
       </span>
       <button
+        disabled={!ingredients.length}
         onClick={removeAllIngredients}
-        className='rounded-lg border border-gray-300 bg-gray-100 px-3 py-1.5 text-sm text-slate-700 outline-none transition duration-300 hover:border-red-400 hover:bg-red-50 hover:text-red-800 lg:px-5 lg:py-2 lg:text-base'
+        className='button btnRed'
       >
         Remove All
       </button>

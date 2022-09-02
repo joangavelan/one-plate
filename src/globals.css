@@ -34,11 +34,15 @@
 }
 
 .button {
-  @apply rounded-lg border border-gray-400 bg-gray-100 px-4 py-2 text-sm text-slate-700 outline-none transition duration-200 disabled:opacity-70 lg:text-base;
+  @apply rounded-lg border border-gray-400 bg-gray-100 py-1.5 px-3 text-sm text-slate-700 outline-none transition duration-200 disabled:opacity-70 sm:px-4 sm:py-2 lg:text-base;
 }
 
 .btnGray {
   @apply enabled:hover:border-slate-600 enabled:hover:bg-slate-100 enabled:hover:text-slate-900;
+}
+
+.btnRed {
+  @apply enabled:hover:border-red-400 enabled:hover:bg-red-50 enabled:hover:text-red-800;
 }
 
 .info-icon {
