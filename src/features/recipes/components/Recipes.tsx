@@ -11,7 +11,7 @@ export const Recipes = () => {
     <div className='green-box relative col-span-5 flex flex-col gap-5 lg:col-span-2'>
       {recipes.length > 0 ? (
         <React.Fragment>
-          <Heading />
+          <Heading setRecipes={setRecipes} />
           <RecipeList recipes={recipes} />
         </React.Fragment>
       ) : (
