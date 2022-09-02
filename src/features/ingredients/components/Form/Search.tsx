@@ -25,6 +25,14 @@ export const IngredientSearchInput = ({
           )
           .slice(0, 10)
 
+  const inputRef = React.useRef<HTMLInputElement>(null)
+
+  React.useEffect(() => {
+    if (inputRef.current) {
+      inputRef.current.focus()
+    }
+  }, [])
+
   return (
     <Combobox value={selected} onChange={setSelected} nullable>
       <div className='relative'>
@@ -35,6 +43,7 @@ export const IngredientSearchInput = ({
           placeholder='Apple'
           autoComplete='off'
           onChange={(e) => setQuery(e.target.value)}
+          ref={inputRef}
         />
 
         <Transition
