@@ -2,7 +2,7 @@ import * as React from 'react'
 import { Ingredient } from '../../types'
 import Image from 'next/image'
 import { TbGripVertical } from 'react-icons/tb'
-import { FiTrash2 } from 'react-icons/fi'
+import { IoMdRemoveCircleOutline } from 'react-icons/io'
 import useIngredients from '@/stores/useIngredients'
 import type { DraggableProvided } from 'react-beautiful-dnd'
 
@@ -71,9 +71,9 @@ const Ingredient = ({ ingredient, provided }: IngredientProps) => {
           {/* remove ingredient icon */}
           <div
             onClick={() => removeIngredient(id)}
-            className='cursor-pointer py-2.5 px-3.5 text-base transition-colors duration-300 hover:text-red-700 sm:text-lg lg:text-xl'
+            className='cursor-pointer py-3 px-3.5 text-base transition-colors duration-300 hover:text-red-700 sm:text-lg lg:text-xl'
           >
-            <FiTrash2 />
+            <IoMdRemoveCircleOutline />
           </div>
         </div>
       </div>
