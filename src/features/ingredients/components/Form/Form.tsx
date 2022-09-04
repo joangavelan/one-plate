@@ -1,6 +1,6 @@
 import * as React from 'react'
 import { IngredientSearchInput } from './Search'
-import { Unit } from './Unit'
+import { Units } from './Units'
 import { SubmitButton } from './SubmitButton'
 import { Amount } from './Amount'
 import { useForm, SubmitHandler } from 'react-hook-form'
@@ -32,6 +32,7 @@ export const IngredientForm = () => {
   const [selectedIngredient, setSelectedIngredient] =
     React.useState<SelectedIngredient | null>(null)
   const [possibleUnits, setPossibleUnits] = React.useState<string[]>([])
+  const [loadingUnits, setLoadingUnits] = React.useState(false)
 
   const onSubmit: SubmitHandler<FormData> = async ({ amount, unit }) => {
     const ingredientMeta = {
@@ -52,10 +53,12 @@ export const IngredientForm = () => {
   React.useEffect(() => {
     if (selectedIngredient) {
       setPossibleUnits([])
+      setLoadingUnits(true)
       setValue('unit', '')
       getPossibleUnits(selectedIngredient.id).then((units) => {
         setPossibleUnits(units || [])
         setValue('unit', units[0] || '')
+        setLoadingUnits(false)
       })
     }
   }, [selectedIngredient, setValue])
@@ -71,7 +74,12 @@ export const IngredientForm = () => {
         setSelected={setSelectedIngredient}
       />
       <Amount registration={register('amount', { valueAsNumber: true })} />
-      <Unit units={possibleUnits} control={control} name='unit' />
+      <Units
+        units={possibleUnits}
+        loadingUnits={loadingUnits}
+        control={control}
+        name='unit'
+      />
       <SubmitButton disabled={!isReadyToSubmit} />
     </form>
   )
