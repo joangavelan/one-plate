@@ -30,7 +30,7 @@
 }
 
 .badge {
-  @apply flex w-min gap-1 py-1 px-2.5 text-xs font-medium sm:text-sm lg:text-base;
+  @apply w-max py-1 px-2.5 text-xs font-medium sm:text-sm lg:text-base;
 }
 
 .button {

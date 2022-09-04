@@ -64,10 +64,9 @@ const Ingredient = ({ ingredient, provided }: IngredientProps) => {
 
         <div className='ml-auto flex flex-col items-end justify-between'>
           {/* calories */}
-          <div className='badge rounded-bl-lg rounded-tr-lg bg-yellow-200'>
-            <span>{Math.round(calories.amount)}</span>
-            <span>{calories.unit}</span>
-          </div>
+          <span className='badge rounded-bl-lg rounded-tr-lg bg-yellow-200'>
+            {calories} kcal
+          </span>
           {/* remove ingredient icon */}
           <div
             onClick={() => removeIngredient(id)}

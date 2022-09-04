@@ -9,7 +9,7 @@ export const Heading = ({ totalCalories }: HeadingProps) => {
         Plate
       </h2>
       <span className='text-md block font-medium md:text-lg'>
-        {Math.round(totalCalories)} kcal
+        {totalCalories} kcal
       </span>
     </div>
   )

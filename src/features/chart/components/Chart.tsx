@@ -26,7 +26,7 @@ export const Chart = () => {
   const totalCalories = React.useMemo(
     () =>
       ingredients.reduce((acc, ing) => {
-        return acc + ing.calories.amount
+        return acc + ing.calories
       }, 0),
     [ingredients]
   )

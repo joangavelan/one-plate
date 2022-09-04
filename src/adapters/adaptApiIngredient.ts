@@ -19,12 +19,10 @@ export const adaptApiIngredient = ({
       unit
     }))
 
-  const [calories] = nutrients
-    .splice(
-      nutrients.findIndex((nutrient: any) => nutrient.name === 'Calories'),
-      1
-    )
-    .map(({ amount, unit }: any) => ({ amount, unit }))
+  const [calories] = nutrients.splice(
+    nutrients.findIndex((nutrient: any) => nutrient.name === 'Calories'),
+    1
+  )
 
   return {
     id: nanoid(),
@@ -33,6 +31,6 @@ export const adaptApiIngredient = ({
     amount,
     unit: unitLong,
     nutrients,
-    calories
+    calories: Math.round(calories.amount)
   }
 }
