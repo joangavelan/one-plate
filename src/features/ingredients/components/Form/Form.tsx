@@ -9,7 +9,7 @@ import { getFullIngredient } from '../../api/getFullIngredient'
 import useIngredients from '@/stores/useIngredients'
 
 export type FormData = {
-  amount: number
+  amount: string
   unit: string
 }
 
@@ -27,17 +27,23 @@ export const IngredientForm = () => {
     setValue,
     reset,
     formState: { isSubmitting }
-  } = useForm<FormData>()
+  } = useForm<FormData>({
+    defaultValues: {
+      amount: '',
+      unit: ''
+    }
+  })
 
   const [selectedIngredient, setSelectedIngredient] =
     React.useState<SelectedIngredient | null>(null)
   const [possibleUnits, setPossibleUnits] = React.useState<string[]>([])
   const [loadingUnits, setLoadingUnits] = React.useState(false)
+  const [isReadyToSubmit, setIsReadyToSubmit] = React.useState(false)
 
   const onSubmit: SubmitHandler<FormData> = async ({ amount, unit }) => {
     const ingredientMeta = {
       id: selectedIngredient!.id,
-      amount,
+      amount: +amount,
       unit
     }
     const ingredient = await getFullIngredient(ingredientMeta)
@@ -63,9 +69,16 @@ export const IngredientForm = () => {
     }
   }, [selectedIngredient, setValue])
 
-  const amount = watch('amount')
-  const unit = watch('unit')
-  const isReadyToSubmit = selectedIngredient && amount && unit
+  React.useEffect(() => {
+    const subscription = watch(({ amount, unit }) => {
+      if (!!selectedIngredient && !!amount && !!unit) {
+        setIsReadyToSubmit(true)
+      } else {
+        setIsReadyToSubmit(false)
+      }
+    })
+    return () => subscription.unsubscribe()
+  }, [watch, selectedIngredient])
 
   return (
     <form onSubmit={handleSubmit(onSubmit)} className='my-5 flex gap-3'>
@@ -73,7 +86,7 @@ export const IngredientForm = () => {
         selected={selectedIngredient}
         setSelected={setSelectedIngredient}
       />
-      <Amount registration={register('amount', { valueAsNumber: true })} />
+      <Amount registration={register('amount')} />
       <Units
         units={possibleUnits}
         loadingUnits={loadingUnits}
