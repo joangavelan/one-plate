@@ -2,7 +2,7 @@ import { BsFillCaretDownFill } from 'react-icons/bs'
 import { Spinner } from '@/components/Elements/Spinner'
 
 type UnitProps = {
-  value: string | number
+  value: string
   loadingUnits: boolean
 }
 
