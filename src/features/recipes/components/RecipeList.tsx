@@ -4,7 +4,7 @@ import { MdOpenInNew } from 'react-icons/md'
 import { IoMdTime } from 'react-icons/io'
 import { FcInfo } from 'react-icons/fc'
 import { Popover, Transition } from '@headlessui/react'
-import { RecipeIngredient } from './RecipeIngredient'
+import { RecipeIngredientList } from './RecipeIngredientList'
 import { Recipe } from '../types'
 import { formatMinutes } from '@/utils/formatMinutes'
 
@@ -58,9 +58,7 @@ export const RecipeList = ({ recipes }: RecipeListProps) => {
                     leaveTo='opacity-0 translate-y-1'
                   >
                     <Popover.Panel className='absolute z-10 grid max-h-36 gap-1 overflow-y-auto rounded-lg border border-gray-200 bg-white p-3 shadow-lg'>
-                      {ingredients.map(({ id, ...props }) => (
-                        <RecipeIngredient key={id} {...props} />
-                      ))}
+                      <RecipeIngredientList ingredients={ingredients} />
                     </Popover.Panel>
                   </Transition>
                 </Popover>
