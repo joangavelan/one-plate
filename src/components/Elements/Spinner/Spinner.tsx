@@ -1,8 +1,18 @@
-export const Spinner = () => {
+const sizes = {
+  sm: 'h-4 w-4',
+  md: 'h-8 w-8',
+  lg: 'h-12 w-12'
+}
+
+type SpinnerProps = {
+  size: keyof typeof sizes
+}
+
+export const Spinner = ({ size }: SpinnerProps) => {
   return (
     <>
       <svg
-        className='h-4 w-4 animate-spin text-slate-600'
+        className={`${sizes[size]} animate-spin text-slate-600`}
         xmlns='http://www.w3.org/2000/svg'
         fill='none'
         viewBox='0 0 24 24'

@@ -8,7 +8,7 @@ type UnitProps = {
 
 export const Unit = ({ value, loadingUnits }: UnitProps) => {
   if (loadingUnits) {
-    return <Spinner />
+    return <Spinner size='sm' />
   }
 
   if (!value) {
