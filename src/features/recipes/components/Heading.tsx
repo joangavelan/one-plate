@@ -1,31 +1,27 @@
 import * as React from 'react'
-import useIngredients from '@/stores/useIngredients'
 import { MdOutlineRefresh } from 'react-icons/md'
-import { Recipe } from '../types'
-import { getKeyValues } from '@/utils/getKeyValues'
-import { getRecipes } from '../api/getRecipes'
+import useIngredients from '@/stores/useIngredients'
 import { useFirstRender } from '@/hooks/useFirstRender'
 
 type RecipesHeadingProps = {
-  setRecipes: React.Dispatch<React.SetStateAction<Recipe[]>>
+  canUpdateRecipes: boolean
+  setCanUpdateRecipes: React.Dispatch<React.SetStateAction<boolean>>
+  fetchRecipes: () => void
 }
 
-export const Heading = ({ setRecipes }: RecipesHeadingProps) => {
-  const [canUpdateRecipes, setCanUpdateRecipes] = React.useState(false)
+export const Heading = ({
+  canUpdateRecipes,
+  setCanUpdateRecipes,
+  fetchRecipes
+}: RecipesHeadingProps) => {
   const ingredients = useIngredients((state) => state.ingredients)
-  const names = getKeyValues(ingredients, 'name')
-  const isFirstRender = useFirstRender()
-
-  const fetchRecipes = async () => {
-    setCanUpdateRecipes(false)
-    const recipes = await getRecipes(names)
-    setRecipes(recipes)
-  }
+  const firstRender = useFirstRender()
 
   React.useEffect(() => {
-    if (isFirstRender) return
-    setCanUpdateRecipes(true)
-  }, [ingredients, isFirstRender])
+    if (!firstRender) {
+      setCanUpdateRecipes(true)
+    }
+  }, [ingredients])
 
   return (
     <div className='flex items-center justify-between '>
