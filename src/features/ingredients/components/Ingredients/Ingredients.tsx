@@ -1,4 +1,3 @@
-import React from 'react'
 import { IngredientForm } from '../Form'
 import { Heading } from '../Heading'
 import { IngredientList } from '../List'

@@ -26,7 +26,7 @@ export const IngredientForm = () => {
     control,
     setValue,
     reset,
-    formState: { isSubmitting }
+    formState: { isSubmitSuccessful }
   } = useForm<FormData>({
     defaultValues: {
       amount: '',
@@ -38,9 +38,12 @@ export const IngredientForm = () => {
     React.useState<SelectedIngredient | null>(null)
   const [possibleUnits, setPossibleUnits] = React.useState<string[]>([])
   const [loadingUnits, setLoadingUnits] = React.useState(false)
+  const [loadingNewIngredient, setLoadingNewIngredient] = React.useState(false)
   const [isReadyToSubmit, setIsReadyToSubmit] = React.useState(false)
 
   const onSubmit: SubmitHandler<FormData> = async ({ amount, unit }) => {
+    if (loadingNewIngredient) return // prevents double submission
+    setLoadingNewIngredient(true)
     const ingredientMeta = {
       id: selectedIngredient!.id,
       amount: +amount,
@@ -48,13 +51,14 @@ export const IngredientForm = () => {
     }
     const ingredient = await getFullIngredient(ingredientMeta)
     useIngredients.getState().addIngredient(ingredient)
+    setLoadingNewIngredient(false)
   }
 
   React.useEffect(() => {
     reset()
     setPossibleUnits([])
     setSelectedIngredient(null)
-  }, [isSubmitting, reset])
+  }, [isSubmitSuccessful, reset])
 
   React.useEffect(() => {
     if (selectedIngredient) {
@@ -93,7 +97,10 @@ export const IngredientForm = () => {
         control={control}
         name='unit'
       />
-      <SubmitButton disabled={!isReadyToSubmit} />
+      <SubmitButton
+        loadingNewIngredient={loadingNewIngredient}
+        disabled={!isReadyToSubmit}
+      />
     </form>
   )
 }
