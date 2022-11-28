@@ -7,6 +7,7 @@ import { useForm, SubmitHandler } from 'react-hook-form'
 import { getPossibleUnits } from '../../api/getPossibleUnits'
 import { getFullIngredient } from '../../api/getFullIngredient'
 import useIngredients from '@/stores/useIngredients'
+import { AxiosError } from 'axios'
 
 export type FormData = {
   amount: string
@@ -65,11 +66,18 @@ export const IngredientForm = () => {
       setPossibleUnits([])
       setLoadingUnits(true)
       setValue('unit', '')
-      getPossibleUnits(selectedIngredient.id).then((units) => {
-        setPossibleUnits(units || [])
-        setValue('unit', units[0] || '')
-        setLoadingUnits(false)
-      })
+      getPossibleUnits(selectedIngredient.id)
+        .then((units) => {
+          setPossibleUnits(units || [])
+          setValue('unit', units[0] || '')
+          setLoadingUnits(false)
+        })
+        .catch((error) => {
+          alert("Error: Couldn't fetch the amount units for this ingredient.")
+          setPossibleUnits([])
+          setLoadingUnits(false)
+          console.log(error)
+        })
     }
   }, [selectedIngredient, setValue])
 
