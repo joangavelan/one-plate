@@ -33,19 +33,20 @@ export const Chart = () => {
 
   const data: ChartData<'pie'> = React.useMemo(
     () => ({
-      labels: ['Fats', 'Carbohydrates', 'Proteins'],
+      labels: ['Proteins', 'Carbohydrates', 'Fats'],
       datasets: [
         {
           data: totalAmountsPerNutrient,
           backgroundColor: [
-            'rgba(75, 192, 192, 0.2)',
+            'rgba(255, 159, 64, 0.2)',
             'rgba(54, 162, 235, 0.2)',
-            'rgba(255, 159, 64, 0.2)'
+            'rgba(75, 192, 192, 0.2)'
           ],
           borderColor: [
-            'rgba(75, 192, 192, 1)', 
-            'rgba(54, 162, 235, 1)', 
-            'rgba(255, 159, 64, 1)'],
+            'rgba(255, 159, 64, 1)',
+            'rgba(54, 162, 235, 1)',
+            'rgba(75, 192, 192, 1)'
+          ],
           borderWidth: 1
         }
       ]
